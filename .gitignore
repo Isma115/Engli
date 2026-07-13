@@ -1,0 +1,43 @@
+# Dependencias
+node_modules/
+
+# Logs y archivos de depuración
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+
+# Artefactos generados por Electron y herramientas de build
+dist/
+build/
+out/
+release/
+coverage/
+*.asar
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# Configuración local de editores e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cachés temporales
+.cache/
+.eslintcache
+.npm/
+.parcel-cache/
+

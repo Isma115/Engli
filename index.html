@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101118" />
+    <title>Engli — English practice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="readings.js" defer></script>
+    <script src="writings.js" defer></script>
+    <script src="grammar.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <button class="brand" type="button" data-go-to="dashboard" aria-label="Go to home">engli<span>.</span></button>
+        <nav class="main-nav" aria-label="Practice sections">
+          <button class="nav-item active" type="button" data-view="dashboard" aria-current="page">Home</button>
+          <button class="nav-item" type="button" data-view="writing">Writing</button>
+          <button class="nav-item" type="button" data-view="grammar">Grammar</button>
+          <button class="nav-item" type="button" data-view="reading">Reading</button>
+          <button class="nav-item" type="button" data-view="stats">Stats</button>
+        </nav>
+        <span class="level-badge">B2 <span>+</span> C1</span>
+      </header>
+
+      <main class="page-wrap">
+        <section class="view active-view" id="dashboard-view" data-page="dashboard">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">English practice</p>
+              <h1>Choose an exercise.</h1>
+              <p class="subheading">Short, focused practice for B2 and C1.</p>
+            </div>
+          </div>
+
+          <div class="practice-grid">
+            <button class="practice-card writing-card" type="button" data-go-to="writing">
+              <span class="card-number">01</span>
+              <span class="card-content"><strong>Writing</strong><span>Write and submit a response.</span></span>
+              <span class="card-arrow">→</span>
+            </button>
+            <button class="practice-card grammar-card" type="button" data-go-to="grammar">
+              <span class="card-number">02</span>
+              <span class="card-content"><strong>Grammar</strong><span>Choose the correct structure.</span></span>
+              <span class="card-arrow">→</span>
+            </button>
+            <button class="practice-card reading-card" type="button" data-go-to="reading">
+              <span class="card-number">03</span>
+              <span class="card-content"><strong>Reading</strong><span>Read a text and check your understanding.</span></span>
+              <span class="card-arrow">→</span>
+            </button>
+          </div>
+
+          <p class="home-note">Everything you need to practise, without distractions.</p>
+        </section>
+
+        <section class="view" id="writing-view" data-page="writing">
+          <div class="page-heading section-heading">
+            <div>
+              <p class="eyebrow">01 / Writing</p>
+              <h1>Write your answer.</h1>
+              <p class="subheading">200 free-writing prompts for B2 and C1.</p>
+            </div>
+            <span class="level-badge" id="writing-progress">Writing 1 / 200</span>
+          </div>
+
+          <div class="writing-workspace" id="writing-workspace">
+            <article class="exercise-card writing-exercise">
+              <div class="exercise-header">
+                <div>
+                  <p class="exercise-label" id="writing-category">Technology &amp; society</p>
+                  <h2 id="writing-title">AI in everyday decisions</h2>
+                </div>
+                <span class="exercise-meta" id="writing-meta">260–320 words</span>
+              </div>
+              <p class="instruction" id="writing-prompt">Should people allow artificial intelligence to make more everyday decisions for them? Discuss both views and give your opinion.</p>
+              <textarea id="writing-editor" placeholder="Write freely. Your model answer will appear after you submit…" spellcheck="true"></textarea>
+              <div class="exercise-footer">
+                <span id="word-count">0 words</span>
+                <span class="recommended">Compare ideas, structure and language.</span>
+                <button class="secondary-button" type="button" id="save-draft">Save draft</button>
+                <button class="primary-button" type="button" id="submit-writing">Show example</button>
+              </div>
+              <div class="writing-controls">
+                <button class="secondary-button" type="button" id="writing-previous">Previous</button>
+                <button class="secondary-button" type="button" id="writing-next">Next</button>
+              </div>
+            </article>
+
+            <article class="writing-example-card" id="writing-example" hidden>
+              <div class="example-header"><p class="exercise-label">Possible model answer</p><span id="writing-example-level">C1</span></div>
+              <h2 id="writing-example-title">AI in everyday decisions</h2>
+              <p class="example-text" id="writing-example-text"></p>
+              <p class="example-note">Use this as a comparison, not as the only correct answer. Look at the organisation, supporting ideas and useful language.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="view" id="grammar-view" data-page="grammar">
+          <div class="page-heading section-heading">
+            <div>
+              <p class="eyebrow">02 / Grammar</p>
+              <h1>Choose the best option.</h1>
+              <p class="subheading">200 questions covering the structures you need for B2 and C1.</p>
+            </div>
+            <span class="level-badge" id="grammar-progress">Question 1 / 200</span>
+          </div>
+
+          <article class="exercise-card grammar-exercise">
+            <div class="grammar-question-meta"><span id="grammar-category">Inversion &amp; emphasis</span><span id="grammar-level">C1</span><span id="grammar-difficulty">High</span></div>
+            <p class="exercise-label" id="grammar-instruction">Complete the sentence</p>
+            <h2 id="grammar-prompt">_____ had I arrived home when the phone rang.</h2>
+            <div class="answer-options" id="grammar-options"></div>
+            <p class="feedback" id="grammar-feedback" aria-live="polite"></p>
+            <div class="grammar-controls">
+              <button class="secondary-button" type="button" id="grammar-previous">Previous</button>
+              <button class="primary-button" type="button" id="check-answer">Check answer</button>
+              <button class="secondary-button" type="button" id="grammar-next">Next</button>
+            </div>
+          </article>
+        </section>
+
+        <section class="view" id="reading-view" data-page="reading">
+          <div class="page-heading section-heading">
+            <div>
+              <p class="eyebrow">03 / Reading</p>
+              <h1>Read and understand.</h1>
+              <p class="subheading">100 texts with comprehension questions for B2 and C1.</p>
+            </div>
+            <span class="level-badge"><strong id="reading-total">100</strong> texts</span>
+          </div>
+
+          <div class="reading-toolbar">
+            <label class="search-field">
+              <span aria-hidden="true">⌕</span>
+              <input id="reading-search" type="search" placeholder="Search readings" autocomplete="off" />
+            </label>
+            <div class="reading-filters" role="group" aria-label="Reading difficulty">
+              <button class="reading-filter active" type="button" data-filter="all" aria-pressed="true">All</button>
+              <button class="reading-filter" type="button" data-filter="High" aria-pressed="false">High</button>
+              <button class="reading-filter" type="button" data-filter="Medium" aria-pressed="false">Medium</button>
+              <button class="reading-filter" type="button" data-filter="Foundations" aria-pressed="false">B2 foundations</button>
+            </div>
+          </div>
+
+          <div class="reading-workspace">
+            <article class="reader-card" id="reading-reader">
+              <div class="article-meta"><span class="reading-category" id="reading-category">Ideas &amp; culture</span><span id="reading-date">12 May 2024</span><span id="reading-time">6 min read</span><span class="difficulty-badge" id="reading-difficulty">High</span></div>
+              <h2 id="reading-title">The quiet power of deep work</h2>
+              <p class="article-dek" id="reading-dek">In a world full of pings, tabs and interruptions, focus has quietly become a superpower.</p>
+              <p class="article-byline">By <strong id="reading-author-name">Leah Morgan</strong> · <span id="reading-author-publication">Lexi Journal</span></p>
+              <div class="article-content" id="reading-body"></div>
+            </article>
+
+            <aside class="quiz-card">
+              <div class="quiz-header"><p class="exercise-label">Check understanding</p><span id="reading-quiz-count">1 / 3</span></div>
+              <h2 id="reading-question">What is the writer's main point?</h2>
+              <div class="quiz-options" id="reading-options"></div>
+              <p class="feedback" id="reading-feedback" aria-live="polite"></p>
+              <button class="primary-button full-button" type="button" id="reading-check">Check answer</button>
+            </aside>
+          </div>
+
+          <div class="library-heading">
+            <div><p class="eyebrow">Reading library</p><h2>Choose a text.</h2></div>
+            <span class="results-count" id="reading-results-count">Showing 100 readings</span>
+          </div>
+          <div class="reading-library-grid" id="reading-library-grid"></div>
+        </section>
+
+        <section class="view" id="stats-view" data-page="stats">
+          <div class="page-heading section-heading">
+            <div>
+              <p class="eyebrow">04 / Statistics</p>
+              <h1>See your progress.</h1>
+              <p class="subheading">A live estimate of how ready you are to face C1.</p>
+            </div>
+            <span class="level-badge">Updated automatically</span>
+          </div>
+
+          <div class="stats-top-grid">
+            <article class="readiness-card">
+              <div class="readiness-header">
+                <div>
+                  <p class="exercise-label">C1 readiness</p>
+                  <strong class="readiness-percent" id="readiness-percent">0%</strong>
+                  <p class="readiness-status" id="readiness-status">Your starting point</p>
+                </div>
+                <div class="readiness-ring" id="readiness-ring" aria-label="C1 readiness percentage"><span id="readiness-ring-value">0%</span></div>
+              </div>
+              <div class="readiness-track"><span id="readiness-bar"></span></div>
+              <p class="readiness-message" id="readiness-message">Complete an exercise to start building your estimate.</p>
+            </article>
+
+            <article class="stats-summary">
+              <p class="exercise-label">Your activity</p>
+              <div class="summary-list">
+                <div><strong id="stats-completed">0</strong><span>completed</span></div>
+                <div><strong id="stats-total">0</strong><span>total exercises</span></div>
+                <div><strong id="stats-accuracy">—</strong><span>current accuracy</span></div>
+              </div>
+              <p class="stats-note">The estimate includes every available exercise. New exercises are included automatically.</p>
+            </article>
+          </div>
+
+          <div class="stats-section-heading"><div><p class="eyebrow">Practice breakdown</p><h2>Keep each skill moving.</h2></div></div>
+          <div class="stats-breakdown" id="stats-breakdown"></div>
+          <p class="stats-next" id="stats-next"></p>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

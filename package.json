@@ -1,0 +1,14 @@
+{
+  "name": "engli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lexi English learning studio for B2 and C1 learners",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "electron": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^37.2.6"
+  }
+}
