@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "By the time we arrived, the film _____.",
+    "options": [
+      "had started",
+      "has started",
+      "was starting",
+      "starts"
+    ],
+    "answer": 0,
+    "explanation": "Past perfect places the earlier event before arrived."
+  },
+  {
+    "id": 2,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "I _____ in Madrid since 2019.",
+    "options": [
+      "lived",
+      "have lived",
+      "am living",
+      "had lived"
+    ],
+    "answer": 1,
+    "explanation": "Present perfect connects a state that began in the past with now."
+  },
+  {
+    "id": 3,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "At this time next year, she _____ in Singapore.",
+    "options": [
+      "works",
+      "worked",
+      "will be working",
+      "has worked"
+    ],
+    "answer": 2,
+    "explanation": "Future continuous describes an action in progress at a future time."
+  },
+  {
+    "id": 4,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "He _____ on the report for three hours before lunch.",
+    "options": [
+      "worked",
+      "has worked",
+      "was working",
+      "had been working"
+    ],
+    "answer": 3,
+    "explanation": "Past perfect continuous emphasises duration before a past point."
+  },
+  {
+    "id": 5,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "When I arrived, they _____ the budget.",
+    "options": [
+      "were discussing",
+      "have discussed",
+      "discuss",
+      "had discuss"
+    ],
+    "answer": 0,
+    "explanation": "Past continuous shows an action in progress when another past event occurred."
+  },
+  {
+    "id": 6,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "It was the first time she _____ such a complex case.",
+    "options": [
+      "saw",
+      "had seen",
+      "has seen",
+      "was seeing"
+    ],
+    "answer": 1,
+    "explanation": "It was the first time is normally followed by past perfect."
+  },
+  {
+    "id": 7,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "No sooner _____ the announcement than the phones started ringing.",
+    "options": [
+      "did they make",
+      "they made",
+      "had they made",
+      "they had made"
+    ],
+    "answer": 2,
+    "explanation": "No sooner had + subject + past participle pairs with than."
+  },
+  {
+    "id": 8,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The contract _____ revised at the moment.",
+    "options": [
+      "has",
+      "was",
+      "is being",
+      "is been"
+    ],
+    "answer": 2,
+    "explanation": "Present continuous passive is is being + past participle."
+  },
+  {
+    "id": 9,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "How long _____ you been waiting?",
+    "options": [
+      "did",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": 3,
+    "explanation": "Present perfect continuous questions use have + subject + been."
+  },
+  {
+    "id": 10,
+    "category": "Tense & aspect",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "By 2030, scientists _____ a workable solution.",
+    "options": [
+      "will have developed",
+      "develop",
+      "are developing",
+      "had developed"
+    ],
+    "answer": 0,
+    "explanation": "Future perfect describes completion by a future deadline."
+  },
+  {
+    "id": 11,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "If I _____ you, I would challenge the decision.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "had been"
+    ],
+    "answer": 2,
+    "explanation": "Were is the formal form for an unreal present condition."
+  },
+  {
+    "id": 12,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Had they listened to the warning, they _____ the mistake.",
+    "options": [
+      "avoid",
+      "would avoid",
+      "will have avoided",
+      "would have avoided"
+    ],
+    "answer": 3,
+    "explanation": "Had they listened is an inverted third conditional."
+  },
+  {
+    "id": 13,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Unless you save a copy, you _____ the changes.",
+    "options": [
+      "may lose",
+      "would lose",
+      "had lost",
+      "lost"
+    ],
+    "answer": 0,
+    "explanation": "Unless introduces a real condition meaning if not."
+  },
+  {
+    "id": 14,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Provided that the figures are correct, we _____ proceed.",
+    "options": [
+      "would",
+      "can",
+      "had",
+      "were"
+    ],
+    "answer": 1,
+    "explanation": "Provided that introduces a condition followed here by can."
+  },
+  {
+    "id": 15,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "If she had taken the offer, she _____ abroad now.",
+    "options": [
+      "will live",
+      "would have lived",
+      "would be living",
+      "lived"
+    ],
+    "answer": 2,
+    "explanation": "This mixed conditional links an unreal past decision to a present result."
+  },
+  {
+    "id": 16,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Were the plan to fail, the company _____ face serious losses.",
+    "options": [
+      "will",
+      "had",
+      "is",
+      "would"
+    ],
+    "answer": 3,
+    "explanation": "Were + subject + to-infinitive takes would in the result clause."
+  },
+  {
+    "id": 17,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I wish I _____ the instructions more carefully.",
+    "options": [
+      "had read",
+      "read",
+      "would read",
+      "have read"
+    ],
+    "answer": 0,
+    "explanation": "Wish about a past regret takes past perfect."
+  },
+  {
+    "id": 18,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It is time we _____ responsibility for the outcome.",
+    "options": [
+      "take",
+      "took",
+      "had taken",
+      "would take"
+    ],
+    "answer": 1,
+    "explanation": "It is time is followed by a past form for present criticism."
+  },
+  {
+    "id": 19,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I would rather you _____ this matter with anyone else.",
+    "options": [
+      "do not discuss",
+      "had not discussed",
+      "did not discuss",
+      "would not discuss"
+    ],
+    "answer": 2,
+    "explanation": "Would rather about another person's present action takes past simple."
+  },
+  {
+    "id": 20,
+    "category": "Conditionals",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "If only we _____ more time to prepare.",
+    "options": [
+      "had",
+      "had had",
+      "will have",
+      "would have"
+    ],
+    "answer": 0,
+    "explanation": "Had expresses a wish for a different present situation here."
+  },
+  {
+    "id": 21,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "She _____ have left already; her coat is gone.",
+    "options": [
+      "must",
+      "should",
+      "can",
+      "would"
+    ],
+    "answer": 0,
+    "explanation": "Must have left is a strong deduction about the past."
+  },
+  {
+    "id": 22,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "They _____ have been at home; all the lights were off.",
+    "options": [
+      "must",
+      "should",
+      "can't",
+      "needn't"
+    ],
+    "answer": 2,
+    "explanation": "Can't have been expresses a strong negative deduction."
+  },
+  {
+    "id": 23,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The parcel _____ have arrived by now.",
+    "options": [
+      "can",
+      "would",
+      "must",
+      "should"
+    ],
+    "answer": 3,
+    "explanation": "Should have arrived expresses an expected result."
+  },
+  {
+    "id": 24,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "You _____ have brought any food; there is plenty here.",
+    "options": [
+      "needn't",
+      "mustn't",
+      "couldn't",
+      "wouldn't"
+    ],
+    "answer": 0,
+    "explanation": "Needn't have brought means the past action was unnecessary."
+  },
+  {
+    "id": 25,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The figures _____ to be accurate, although we should check them.",
+    "options": [
+      "must",
+      "can",
+      "ought",
+      "would"
+    ],
+    "answer": 2,
+    "explanation": "Ought to expresses a reasonable expectation."
+  },
+  {
+    "id": 26,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "He _____ be working late; his office light is on.",
+    "options": [
+      "mustn't",
+      "needn't",
+      "would",
+      "might"
+    ],
+    "answer": 3,
+    "explanation": "Might be working presents a possible explanation."
+  },
+  {
+    "id": 27,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Staff _____ disclose client information without permission.",
+    "options": [
+      "don't have to",
+      "couldn't",
+      "wouldn't",
+      "mustn't"
+    ],
+    "answer": 3,
+    "explanation": "Mustn't expresses prohibition."
+  },
+  {
+    "id": 28,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "We _____ have avoided the delay if we had checked the timetable.",
+    "options": [
+      "could",
+      "must",
+      "should",
+      "need"
+    ],
+    "answer": 0,
+    "explanation": "Could have avoided expresses an unreal past possibility."
+  },
+  {
+    "id": 29,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "New employees _____ to complete the training before starting.",
+    "options": [
+      "are able",
+      "are supposed",
+      "are likely",
+      "are willing"
+    ],
+    "answer": 1,
+    "explanation": "Are supposed to expresses an expected requirement."
+  },
+  {
+    "id": 30,
+    "category": "Modals & deduction",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "I _____ rather not discuss the figures until tomorrow.",
+    "options": [
+      "should",
+      "could",
+      "would",
+      "must"
+    ],
+    "answer": 2,
+    "explanation": "Would rather expresses a present preference."
+  },
+  {
+    "id": 31,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It was _____ useful suggestion.",
+    "options": [
+      "an",
+      "the",
+      "no",
+      "a"
+    ],
+    "answer": 3,
+    "explanation": "Useful begins with a consonant sound, so use a."
+  },
+  {
+    "id": 32,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "This is _____ most reliable source we have.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "no article"
+    ],
+    "answer": 0,
+    "explanation": "Superlatives normally take the definite article."
+  },
+  {
+    "id": 33,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Only _____ participants completed the optional survey.",
+    "options": [
+      "a little",
+      "a few",
+      "much",
+      "every"
+    ],
+    "answer": 1,
+    "explanation": "Participants is countable plural, so a few is correct."
+  },
+  {
+    "id": 34,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "There is _____ time left before the deadline.",
+    "options": [
+      "few",
+      "many",
+      "little",
+      "several"
+    ],
+    "answer": 2,
+    "explanation": "Little is used with uncountable time."
+  },
+  {
+    "id": 35,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Each of the proposals _____ been reviewed.",
+    "options": [
+      "have",
+      "are",
+      "were",
+      "has"
+    ],
+    "answer": 3,
+    "explanation": "Each takes a singular verb."
+  },
+  {
+    "id": 36,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The number of applications _____ risen sharply.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": 0,
+    "explanation": "The number is a singular subject."
+  },
+  {
+    "id": 37,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Could you give me _____ advice about the interview?",
+    "options": [
+      "an",
+      "some",
+      "a",
+      "many"
+    ],
+    "answer": 1,
+    "explanation": "Advice is uncountable and can be used with some."
+  },
+  {
+    "id": 38,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The conference will take place in _____ Netherlands.",
+    "options": [
+      "a",
+      "an",
+      "no article",
+      "the"
+    ],
+    "answer": 3,
+    "explanation": "The Netherlands is a country name with the definite article."
+  },
+  {
+    "id": 39,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "We need _____ reason to postpone the launch.",
+    "options": [
+      "other",
+      "others",
+      "the others",
+      "another"
+    ],
+    "answer": 3,
+    "explanation": "Another means one more and is followed by a singular noun."
+  },
+  {
+    "id": 40,
+    "category": "Articles & determiners",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "There is _____ evidence to support that claim.",
+    "options": [
+      "no",
+      "a",
+      "an",
+      "few"
+    ],
+    "answer": 0,
+    "explanation": "Evidence is uncountable, so no evidence is correct."
+  },
+  {
+    "id": 41,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The committee avoided _____ a final decision.",
+    "options": [
+      "to make",
+      "making",
+      "make",
+      "made"
+    ],
+    "answer": 1,
+    "explanation": "Avoid is followed by a gerund."
+  },
+  {
+    "id": 42,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The manager let the intern _____ early.",
+    "options": [
+      "to leave",
+      "leaving",
+      "leave",
+      "left"
+    ],
+    "answer": 2,
+    "explanation": "Let is followed by an object and a bare infinitive."
+  },
+  {
+    "id": 43,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "They suggested _____ the meeting until Monday.",
+    "options": [
+      "to postpone",
+      "postpone",
+      "postponed",
+      "postponing"
+    ],
+    "answer": 3,
+    "explanation": "Suggest is followed by a gerund or a that-clause."
+  },
+  {
+    "id": 44,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Remember _____ the side door before you leave.",
+    "options": [
+      "to lock",
+      "locking",
+      "lock",
+      "locked"
+    ],
+    "answer": 0,
+    "explanation": "Remember to do something refers to a future duty."
+  },
+  {
+    "id": 45,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "I remember _____ that gallery as a child.",
+    "options": [
+      "to visit",
+      "visiting",
+      "visit",
+      "visited"
+    ],
+    "answer": 1,
+    "explanation": "Remember doing something refers to a recalled past event."
+  },
+  {
+    "id": 46,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "We regret _____ you that the application was unsuccessful.",
+    "options": [
+      "informing",
+      "inform",
+      "to inform",
+      "informed"
+    ],
+    "answer": 2,
+    "explanation": "Regret to inform is a formal expression before bad news."
+  },
+  {
+    "id": 47,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "She stopped _____ when the lights came on.",
+    "options": [
+      "to smoke",
+      "smoke",
+      "smoked",
+      "smoking"
+    ],
+    "answer": 3,
+    "explanation": "Stop smoking means end the habit."
+  },
+  {
+    "id": 48,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The evidence made her _____ her conclusion.",
+    "options": [
+      "reconsider",
+      "to reconsider",
+      "reconsidering",
+      "reconsidered"
+    ],
+    "answer": 0,
+    "explanation": "Make + object takes a bare infinitive in the active voice."
+  },
+  {
+    "id": 49,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "We look forward to _____ from you.",
+    "options": [
+      "hear",
+      "hearing",
+      "have heard",
+      "be heard"
+    ],
+    "answer": 1,
+    "explanation": "In look forward to, to is a preposition and takes a gerund."
+  },
+  {
+    "id": 50,
+    "category": "Verb patterns",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The director had the assistant _____ the figures.",
+    "options": [
+      "to check",
+      "checking",
+      "check",
+      "checked"
+    ],
+    "answer": 2,
+    "explanation": "Have + object + bare infinitive expresses arranged work."
+  },
+  {
+    "id": 51,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The policy _____ to reduce waiting times.",
+    "options": [
+      "believes",
+      "is believing",
+      "has believed",
+      "is believed"
+    ],
+    "answer": 3,
+    "explanation": "Is believed to is a passive reporting structure."
+  },
+  {
+    "id": 52,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The witness was made _____ a statement.",
+    "options": [
+      "to give",
+      "give",
+      "giving",
+      "given"
+    ],
+    "answer": 0,
+    "explanation": "Make in the passive is followed by to + infinitive."
+  },
+  {
+    "id": 53,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It _____ that the company will expand overseas.",
+    "options": [
+      "has reported",
+      "has been reported",
+      "is reporting",
+      "was reporting"
+    ],
+    "answer": 1,
+    "explanation": "It has been reported that is an impersonal passive."
+  },
+  {
+    "id": 54,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "We had the documents _____ into three languages.",
+    "options": [
+      "translate",
+      "translating",
+      "translated",
+      "to translate"
+    ],
+    "answer": 2,
+    "explanation": "Have + object + past participle expresses an arranged service."
+  },
+  {
+    "id": 55,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "She got _____ after leading the project.",
+    "options": [
+      "promote",
+      "promoting",
+      "to promote",
+      "promoted"
+    ],
+    "answer": 3,
+    "explanation": "Get + past participle describes an event affecting the subject."
+  },
+  {
+    "id": 56,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The old batteries need to _____.",
+    "options": [
+      "be replaced",
+      "replace",
+      "replacing",
+      "have replaced"
+    ],
+    "answer": 0,
+    "explanation": "Need to be replaced is a passive necessity."
+  },
+  {
+    "id": 57,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Several alternatives _____ being considered.",
+    "options": [
+      "are",
+      "have",
+      "were",
+      "is"
+    ],
+    "answer": 0,
+    "explanation": "Are being considered is the present continuous passive."
+  },
+  {
+    "id": 58,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The painting is believed _____ during the war.",
+    "options": [
+      "to have been stolen",
+      "to be stolen",
+      "being stolen",
+      "have stolen"
+    ],
+    "answer": 0,
+    "explanation": "To have been stolen refers to an earlier passive event."
+  },
+  {
+    "id": 59,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Each participant _____ a certificate.",
+    "options": [
+      "gave",
+      "was giving",
+      "has given",
+      "was given"
+    ],
+    "answer": 3,
+    "explanation": "Was given is the simple past passive."
+  },
+  {
+    "id": 60,
+    "category": "Passive & reporting",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Let it _____ that late applications are not accepted.",
+    "options": [
+      "be known",
+      "known",
+      "to know",
+      "be knowing"
+    ],
+    "answer": 0,
+    "explanation": "Let it be known is a fixed passive expression."
+  },
+  {
+    "id": 61,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The researcher _____ work changed the field won an award.",
+    "options": [
+      "who",
+      "whose",
+      "which",
+      "where"
+    ],
+    "answer": 1,
+    "explanation": "Whose expresses possession before the noun work."
+  },
+  {
+    "id": 62,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The house _____ we bought needs a new roof.",
+    "options": [
+      "what",
+      "where",
+      "which",
+      "whose"
+    ],
+    "answer": 2,
+    "explanation": "Which refers to the house in a defining relative clause."
+  },
+  {
+    "id": 63,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The town _____ the conference was held has limited hotels.",
+    "options": [
+      "what",
+      "which",
+      "whose",
+      "where"
+    ],
+    "answer": 3,
+    "explanation": "Where refers to the place in which the conference happened."
+  },
+  {
+    "id": 64,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ I need is a clearer explanation.",
+    "options": [
+      "What",
+      "Which",
+      "That",
+      "Where"
+    ],
+    "answer": 0,
+    "explanation": "What introduces a noun clause meaning the thing that."
+  },
+  {
+    "id": 65,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ arrives first should reserve the room.",
+    "options": [
+      "Which",
+      "Whoever",
+      "What",
+      "Where"
+    ],
+    "answer": 1,
+    "explanation": "Whoever means any person who and acts as the subject."
+  },
+  {
+    "id": 66,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ the final draft, she sent it to the editor.",
+    "options": [
+      "Finished",
+      "To finish",
+      "Having finished",
+      "Finish"
+    ],
+    "answer": 2,
+    "explanation": "Having finished shows the first action happened earlier."
+  },
+  {
+    "id": 67,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ by the journey, the hikers rested immediately.",
+    "options": [
+      "Exhausting",
+      "To exhaust",
+      "Having exhaust",
+      "Exhausted"
+    ],
+    "answer": 3,
+    "explanation": "The past participle describes the hikers' state."
+  },
+  {
+    "id": 68,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The people _____ next door are musicians.",
+    "options": [
+      "living",
+      "lived",
+      "to live",
+      "are living"
+    ],
+    "answer": 0,
+    "explanation": "Living reduces who live next door."
+  },
+  {
+    "id": 69,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The company for _____ I work is expanding.",
+    "options": [
+      "what",
+      "which",
+      "where",
+      "whose"
+    ],
+    "answer": 1,
+    "explanation": "For which is the formal relative form for a thing."
+  },
+  {
+    "id": 70,
+    "category": "Relative clauses",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The reason _____ the project failed remains unclear.",
+    "options": [
+      "which",
+      "what",
+      "why",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "Why is the standard relative adverb after reason."
+  },
+  {
+    "id": 71,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Rarely _____ we see such careful research.",
+    "options": [
+      "have",
+      "are",
+      "did",
+      "do"
+    ],
+    "answer": 3,
+    "explanation": "Rarely at the beginning triggers do + subject + base verb."
+  },
+  {
+    "id": 72,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Under no circumstances _____ confidential files be shared.",
+    "options": [
+      "should",
+      "do",
+      "have",
+      "are"
+    ],
+    "answer": 0,
+    "explanation": "Under no circumstances requires modal inversion."
+  },
+  {
+    "id": 73,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Only after the audit _____ the managers understand the risk.",
+    "options": [
+      "had",
+      "did",
+      "were",
+      "would"
+    ],
+    "answer": 1,
+    "explanation": "Only after at the beginning is followed by did + subject."
+  },
+  {
+    "id": 74,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Not only _____ the proposal costly, but it was also risky.",
+    "options": [
+      "did",
+      "had",
+      "was",
+      "has"
+    ],
+    "answer": 2,
+    "explanation": "Not only was the proposal uses inverted be."
+  },
+  {
+    "id": 75,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Little _____ she know that the decision would change her career.",
+    "options": [
+      "had",
+      "was",
+      "has",
+      "did"
+    ],
+    "answer": 3,
+    "explanation": "Little did she know is a fixed emphatic inversion."
+  },
+  {
+    "id": 76,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Had I known about the delay, I _____ earlier.",
+    "options": [
+      "would have left",
+      "will leave",
+      "would leave",
+      "left"
+    ],
+    "answer": 0,
+    "explanation": "Had I known is an inverted third conditional."
+  },
+  {
+    "id": 77,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Should you need assistance, _____ the reception desk.",
+    "options": [
+      "contacted",
+      "contact",
+      "contacting",
+      "to contact"
+    ],
+    "answer": 1,
+    "explanation": "Should you need is a formal conditional followed by the base verb."
+  },
+  {
+    "id": 78,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Nowhere _____ you find a view like this one.",
+    "options": [
+      "have",
+      "are",
+      "can",
+      "do"
+    ],
+    "answer": 2,
+    "explanation": "Nowhere at the beginning is followed by can + subject."
+  },
+  {
+    "id": 79,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "So difficult _____ the task that several people gave up.",
+    "options": [
+      "did",
+      "had",
+      "would",
+      "was"
+    ],
+    "answer": 3,
+    "explanation": "So + adjective at the beginning is followed by inverted be."
+  },
+  {
+    "id": 80,
+    "category": "Inversion & emphasis",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "No sooner _____ the meeting begun than the fire alarm sounded.",
+    "options": [
+      "had",
+      "did",
+      "was",
+      "has"
+    ],
+    "answer": 0,
+    "explanation": "No sooner had the meeting begun pairs with than."
+  },
+  {
+    "id": 81,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ being expensive, the device is reliable.",
+    "options": [
+      "Although",
+      "Despite",
+      "However",
+      "Because"
+    ],
+    "answer": 1,
+    "explanation": "Despite is followed by a noun or gerund phrase."
+  },
+  {
+    "id": 82,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ he was tired, he continued working.",
+    "options": [
+      "Despite",
+      "Nevertheless",
+      "Although",
+      "In spite"
+    ],
+    "answer": 2,
+    "explanation": "Although introduces a clause with a subject and verb."
+  },
+  {
+    "id": 83,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The first plan is cheap, _____ the second is more sustainable.",
+    "options": [
+      "despite",
+      "nevertheless",
+      "because of",
+      "whereas"
+    ],
+    "answer": 3,
+    "explanation": "Whereas contrasts two clauses."
+  },
+  {
+    "id": 84,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The evidence was limited. _____, the committee approved the proposal.",
+    "options": [
+      "Nevertheless",
+      "Despite",
+      "Although",
+      "Because"
+    ],
+    "answer": 0,
+    "explanation": "Nevertheless links two contrasting independent statements."
+  },
+  {
+    "id": 85,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The instructions were simplified _____ users could understand them.",
+    "options": [
+      "despite",
+      "so that",
+      "whereas",
+      "nevertheless"
+    ],
+    "answer": 1,
+    "explanation": "So that introduces a purpose clause."
+  },
+  {
+    "id": 86,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The team met early _____ prepare the presentation.",
+    "options": [
+      "so that",
+      "despite",
+      "in order to",
+      "whereas"
+    ],
+    "answer": 2,
+    "explanation": "In order to is followed by a base verb for purpose."
+  },
+  {
+    "id": 87,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The road was closed; _____, the delivery arrived on time.",
+    "options": [
+      "because",
+      "despite",
+      "therefore of",
+      "however"
+    ],
+    "answer": 3,
+    "explanation": "However expresses contrast between the two statements."
+  },
+  {
+    "id": 88,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ the delay, the team delivered on time.",
+    "options": [
+      "In spite of",
+      "Although",
+      "Nevertheless",
+      "Even though"
+    ],
+    "answer": 0,
+    "explanation": "In spite of is followed by a noun phrase."
+  },
+  {
+    "id": 89,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ you practise, the more fluent you become.",
+    "options": [
+      "More",
+      "The more",
+      "As more",
+      "Much more"
+    ],
+    "answer": 1,
+    "explanation": "The comparative correlative uses the more ... the more."
+  },
+  {
+    "id": 90,
+    "category": "Linkers & discourse",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ the budget was reduced, the project continued.",
+    "options": [
+      "In spite",
+      "Nevertheless",
+      "Even though",
+      "Despite of"
+    ],
+    "answer": 2,
+    "explanation": "Even though introduces a concessive clause."
+  },
+  {
+    "id": 91,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The director is responsible _____ approving the budget.",
+    "options": [
+      "to",
+      "of",
+      "with",
+      "for"
+    ],
+    "answer": 3,
+    "explanation": "Responsible is followed by for."
+  },
+  {
+    "id": 92,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The device is capable _____ detecting pressure changes.",
+    "options": [
+      "of",
+      "to",
+      "for",
+      "with"
+    ],
+    "answer": 0,
+    "explanation": "Capable is followed by of + gerund or noun."
+  },
+  {
+    "id": 93,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The union insisted _____ seeing the full contract.",
+    "options": [
+      "to",
+      "on",
+      "for",
+      "with"
+    ],
+    "answer": 1,
+    "explanation": "Insist on is followed by a noun or gerund."
+  },
+  {
+    "id": 94,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "All suppliers must comply _____ the regulations.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "on"
+    ],
+    "answer": 2,
+    "explanation": "Comply is followed by with."
+  },
+  {
+    "id": 95,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The company was accused _____ misleading customers.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "of"
+    ],
+    "answer": 3,
+    "explanation": "Accused is followed by of + gerund or noun."
+  },
+  {
+    "id": 96,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It is difficult to distinguish _____ fact and opinion.",
+    "options": [
+      "between",
+      "among",
+      "from",
+      "with"
+    ],
+    "answer": 0,
+    "explanation": "Distinguish between is used for two things."
+  },
+  {
+    "id": 97,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The scheme will contribute _____ reducing energy use.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "on"
+    ],
+    "answer": 1,
+    "explanation": "Contribute to is followed by a noun or gerund."
+  },
+  {
+    "id": 98,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Older buildings are more prone _____ damp.",
+    "options": [
+      "for",
+      "of",
+      "to",
+      "with"
+    ],
+    "answer": 2,
+    "explanation": "Prone is followed by to."
+  },
+  {
+    "id": 99,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The changes were made in accordance _____ the agreement.",
+    "options": [
+      "to",
+      "for",
+      "on",
+      "with"
+    ],
+    "answer": 3,
+    "explanation": "In accordance with means consistently with."
+  },
+  {
+    "id": 100,
+    "category": "Prepositions & collocations",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Several residents objected _____ the development.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "on"
+    ],
+    "answer": 0,
+    "explanation": "Object is followed by to."
+  },
+  {
+    "id": 101,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "He said that he _____ the answer.",
+    "options": [
+      "knows",
+      "knew",
+      "has known",
+      "will know"
+    ],
+    "answer": 1,
+    "explanation": "Backshift after said changes present simple to past simple."
+  },
+  {
+    "id": 102,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "She asked _____ I had received the email.",
+    "options": [
+      "that",
+      "what",
+      "whether",
+      "which"
+    ],
+    "answer": 2,
+    "explanation": "Whether introduces a reported yes-or-no question."
+  },
+  {
+    "id": 103,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The doctor told me _____ more water.",
+    "options": [
+      "drink",
+      "drinking",
+      "drank",
+      "to drink"
+    ],
+    "answer": 3,
+    "explanation": "Tell + object is followed by to + infinitive for instructions."
+  },
+  {
+    "id": 104,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The witness claimed _____ the incident.",
+    "options": [
+      "to have seen",
+      "seeing to",
+      "have seen",
+      "to seeing"
+    ],
+    "answer": 0,
+    "explanation": "Claim can be followed by a perfect infinitive for an earlier event."
+  },
+  {
+    "id": 105,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "He denied _____ the confidential file.",
+    "options": [
+      "to open",
+      "having opened",
+      "open",
+      "opened"
+    ],
+    "answer": 1,
+    "explanation": "Deny is followed by a gerund; perfect form shows the earlier action."
+  },
+  {
+    "id": 106,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "They warned us _____ the equipment without training.",
+    "options": [
+      "not to use",
+      "not use",
+      "do not use",
+      "not using"
+    ],
+    "answer": 0,
+    "explanation": "Warn + object + not to-infinitive expresses a warning."
+  },
+  {
+    "id": 107,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "She promised she _____ me the following day.",
+    "options": [
+      "calls",
+      "called",
+      "will call",
+      "would call"
+    ],
+    "answer": 3,
+    "explanation": "Would is the backshifted form of will in reported speech."
+  },
+  {
+    "id": 108,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "He said he _____ such a difficult interview before.",
+    "options": [
+      "had never had",
+      "never has",
+      "never had",
+      "has never had"
+    ],
+    "answer": 0,
+    "explanation": "Past perfect reports an experience before the past speaking moment."
+  },
+  {
+    "id": 109,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The interviewer asked if I _____ work at weekends.",
+    "options": [
+      "can",
+      "could",
+      "will",
+      "should"
+    ],
+    "answer": 1,
+    "explanation": "Could is the backshifted form of can."
+  },
+  {
+    "id": 110,
+    "category": "Reported speech",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The building is said _____ over a century old.",
+    "options": [
+      "being",
+      "have been",
+      "to be",
+      "to have"
+    ],
+    "answer": 2,
+    "explanation": "Is said to be reports a present state."
+  },
+  {
+    "id": 111,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I wish I _____ the instructions before starting.",
+    "options": [
+      "read",
+      "would read",
+      "have read",
+      "had read"
+    ],
+    "answer": 3,
+    "explanation": "Wish about a past regret takes past perfect."
+  },
+  {
+    "id": 112,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I wish I _____ more confident in meetings.",
+    "options": [
+      "were",
+      "am",
+      "had been",
+      "would be"
+    ],
+    "answer": 0,
+    "explanation": "Wish about an unreal present commonly uses were."
+  },
+  {
+    "id": 113,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "If only I _____ explain the problem more clearly.",
+    "options": [
+      "can",
+      "could",
+      "will",
+      "had"
+    ],
+    "answer": 1,
+    "explanation": "Could expresses a present wish about ability."
+  },
+  {
+    "id": 114,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I would rather _____ at home last night.",
+    "options": [
+      "stay",
+      "stayed",
+      "have stayed",
+      "had stay"
+    ],
+    "answer": 2,
+    "explanation": "Would rather about a past preference takes have + past participle."
+  },
+  {
+    "id": 115,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "You should _____ me about the change.",
+    "options": [
+      "tell",
+      "telling",
+      "have told",
+      "to tell"
+    ],
+    "answer": 2,
+    "explanation": "Should have told expresses criticism of a past omission."
+  },
+  {
+    "id": 116,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It is time we _____ home.",
+    "options": [
+      "leave",
+      "had left",
+      "would leave",
+      "left"
+    ],
+    "answer": 3,
+    "explanation": "It is time is followed by a past form for a present recommendation."
+  },
+  {
+    "id": 117,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "He behaves as if he _____ everything.",
+    "options": [
+      "knew",
+      "knows",
+      "had known",
+      "would know"
+    ],
+    "answer": 0,
+    "explanation": "As if + past simple describes an unreal present impression."
+  },
+  {
+    "id": 118,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "If I had taken the earlier train, I _____ on time.",
+    "options": [
+      "arrive",
+      "will arrive",
+      "would have arrived",
+      "would arrive"
+    ],
+    "answer": 2,
+    "explanation": "The result of a third conditional uses would have + past participle."
+  },
+  {
+    "id": 119,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I regret not _____ the opportunity.",
+    "options": [
+      "to accept",
+      "accept",
+      "having accepted",
+      "accepted"
+    ],
+    "answer": 2,
+    "explanation": "Regret not having accepted refers to an earlier missed action."
+  },
+  {
+    "id": 120,
+    "category": "Regret & preference",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I would sooner you _____ the matter private.",
+    "options": [
+      "keep",
+      "kept",
+      "had kept",
+      "would keep"
+    ],
+    "answer": 1,
+    "explanation": "Would sooner about another person's present action takes past simple."
+  },
+  {
+    "id": 121,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Neither of the explanations _____ convincing.",
+    "options": [
+      "are",
+      "is",
+      "have",
+      "were"
+    ],
+    "answer": 1,
+    "explanation": "Neither is treated as singular in formal English."
+  },
+  {
+    "id": 122,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Both the manager and the assistant _____ present.",
+    "options": [
+      "was",
+      "has been",
+      "were",
+      "is"
+    ],
+    "answer": 2,
+    "explanation": "Both ... and takes a plural verb."
+  },
+  {
+    "id": 123,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The number of complaints _____ fallen this year.",
+    "options": [
+      "have",
+      "are",
+      "were",
+      "has"
+    ],
+    "answer": 3,
+    "explanation": "The number is a singular subject."
+  },
+  {
+    "id": 124,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "A number of complaints _____ been resolved.",
+    "options": [
+      "have",
+      "has",
+      "is",
+      "was"
+    ],
+    "answer": 0,
+    "explanation": "A number of + plural noun takes a plural verb."
+  },
+  {
+    "id": 125,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The role requires not only patience _____ also accuracy.",
+    "options": [
+      "and",
+      "but",
+      "or",
+      "than"
+    ],
+    "answer": 1,
+    "explanation": "Not only ... but also links parallel elements."
+  },
+  {
+    "id": 126,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Each of the candidates _____ submitted a portfolio.",
+    "options": [
+      "have",
+      "are",
+      "has",
+      "were"
+    ],
+    "answer": 2,
+    "explanation": "Each takes a singular verb."
+  },
+  {
+    "id": 127,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The staff _____ unhappy with the new timetable.",
+    "options": [
+      "is",
+      "has",
+      "was",
+      "are"
+    ],
+    "answer": 3,
+    "explanation": "Staff can take a plural verb when referring to individuals."
+  },
+  {
+    "id": 128,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Either the director or the assistants _____ responsible.",
+    "options": [
+      "are",
+      "is",
+      "has",
+      "was"
+    ],
+    "answer": 0,
+    "explanation": "With either ... or, the verb agrees with the nearest subject, assistants."
+  },
+  {
+    "id": 129,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "One of the most useful features _____ the search tool.",
+    "options": [
+      "are",
+      "have",
+      "is",
+      "were"
+    ],
+    "answer": 2,
+    "explanation": "The subject is one, not features, so the verb is singular."
+  },
+  {
+    "id": 130,
+    "category": "Agreement & parallelism",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "What matters most _____ how the evidence is used.",
+    "options": [
+      "are",
+      "is",
+      "have",
+      "were"
+    ],
+    "answer": 1,
+    "explanation": "A what-clause used as subject takes singular is here."
+  },
+  {
+    "id": 131,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "_____ warned about the risks, he continued anyway.",
+    "options": [
+      "Having been",
+      "Being have",
+      "To have",
+      "Had"
+    ],
+    "answer": 0,
+    "explanation": "Having been warned is a perfect passive participle clause."
+  },
+  {
+    "id": 132,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "_____ the circumstances, the decision was understandable.",
+    "options": [
+      "Given",
+      "Giving",
+      "To give",
+      "Having give"
+    ],
+    "answer": 0,
+    "explanation": "Given the circumstances is a fixed reduced clause."
+  },
+  {
+    "id": 133,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "You may enter _____ you follow the safety rules.",
+    "options": [
+      "despite",
+      "provided",
+      "although",
+      "in spite"
+    ],
+    "answer": 1,
+    "explanation": "Provided introduces a condition and can be followed by a clause."
+  },
+  {
+    "id": 134,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "_____ you revise the final paragraph, the argument is strong.",
+    "options": [
+      "Despite",
+      "Whereas",
+      "Unless",
+      "Because of"
+    ],
+    "answer": 2,
+    "explanation": "Unless introduces a negative condition."
+  },
+  {
+    "id": 135,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Before _____ the office, check the windows.",
+    "options": [
+      "left",
+      "to leave",
+      "leave",
+      "leaving"
+    ],
+    "answer": 3,
+    "explanation": "Before as a preposition is followed by a gerund."
+  },
+  {
+    "id": 136,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Without _____ the full report, it is difficult to judge.",
+    "options": [
+      "having read",
+      "read",
+      "to read",
+      "have read"
+    ],
+    "answer": 0,
+    "explanation": "Without is a preposition and takes a gerund; perfect form places it earlier."
+  },
+  {
+    "id": 137,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Once _____, the form cannot be edited.",
+    "options": [
+      "submitting",
+      "submitted",
+      "to submit",
+      "it submitted"
+    ],
+    "answer": 1,
+    "explanation": "Submitted is a reduced passive clause."
+  },
+  {
+    "id": 138,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Rather than _____ the original plan, the team adapted it.",
+    "options": [
+      "to abandon",
+      "abandon",
+      "abandoning",
+      "abandoned"
+    ],
+    "answer": 2,
+    "explanation": "Rather than is followed by a gerund when contrasting actions."
+  },
+  {
+    "id": 139,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "No matter _____ difficult the task seems, start with one step.",
+    "options": [
+      "what",
+      "which",
+      "how",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "How + adjective means regardless of the degree."
+  },
+  {
+    "id": 140,
+    "category": "Clause structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "You can borrow the equipment as long as you _____ it tomorrow.",
+    "options": [
+      "return",
+      "returned",
+      "will return",
+      "had returned"
+    ],
+    "answer": 0,
+    "explanation": "As long as introduces a present condition for a future arrangement."
+  },
+  {
+    "id": 141,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "How long _____ you been studying English?",
+    "options": [
+      "did",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": 1,
+    "explanation": "Present perfect continuous questions use have + subject + been."
+  },
+  {
+    "id": 142,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "She rarely complains, _____?",
+    "options": [
+      "does she",
+      "doesn't she",
+      "is she",
+      "did she"
+    ],
+    "answer": 0,
+    "explanation": "A negative-frequency adverb gives the statement a negative meaning, so the tag is positive."
+  },
+  {
+    "id": 143,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "What _____ the sudden change in policy?",
+    "options": [
+      "does cause",
+      "causing",
+      "caused",
+      "has cause"
+    ],
+    "answer": 2,
+    "explanation": "The past simple caused agrees with the past event."
+  },
+  {
+    "id": 144,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "To whom _____ you send the invoice?",
+    "options": [
+      "did",
+      "have",
+      "were",
+      "do"
+    ],
+    "answer": 0,
+    "explanation": "The past simple question uses did + subject + base verb."
+  },
+  {
+    "id": 145,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Hardly ever _____ he take a holiday.",
+    "options": [
+      "does",
+      "is",
+      "has",
+      "did"
+    ],
+    "answer": 0,
+    "explanation": "Hardly ever at the beginning requires do-support in the present."
+  },
+  {
+    "id": 146,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "You have finished the draft, _____?",
+    "options": [
+      "have you",
+      "haven't you",
+      "did you",
+      "don't you"
+    ],
+    "answer": 1,
+    "explanation": "A positive present perfect statement takes a negative have tag."
+  },
+  {
+    "id": 147,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "What would you do if the plan _____?",
+    "options": [
+      "fails",
+      "failed",
+      "had failed",
+      "would fail"
+    ],
+    "answer": 1,
+    "explanation": "The second conditional uses past simple in the if-clause."
+  },
+  {
+    "id": 148,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "_____ you ever worked with a remote team?",
+    "options": [
+      "Did",
+      "Were",
+      "Have",
+      "Are"
+    ],
+    "answer": 2,
+    "explanation": "Present perfect questions use have + past participle for life experience."
+  },
+  {
+    "id": 149,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Why _____ he leave before the discussion ended?",
+    "options": [
+      "does",
+      "did",
+      "has",
+      "was"
+    ],
+    "answer": 1,
+    "explanation": "Past simple questions use did + subject + base verb."
+  },
+  {
+    "id": 150,
+    "category": "Questions & tags",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "We should check the figures, _____?",
+    "options": [
+      "shouldn't we",
+      "should we",
+      "don't we",
+      "aren't we"
+    ],
+    "answer": 0,
+    "explanation": "A positive should statement takes the negative tag shouldn't we."
+  },
+  {
+    "id": 151,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The auditors will carry _____ a detailed review.",
+    "options": [
+      "out",
+      "up",
+      "over",
+      "on"
+    ],
+    "answer": 0,
+    "explanation": "Carry out means perform or complete a task."
+  },
+  {
+    "id": 152,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The committee will look _____ the complaint.",
+    "options": [
+      "after",
+      "into",
+      "for",
+      "up"
+    ],
+    "answer": 1,
+    "explanation": "Look into means investigate."
+  },
+  {
+    "id": 153,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I came _____ an interesting article while researching.",
+    "options": [
+      "into",
+      "across",
+      "over",
+      "up"
+    ],
+    "answer": 1,
+    "explanation": "Come across means find by chance."
+  },
+  {
+    "id": 154,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I cannot put up _____ this noise any longer.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "on"
+    ],
+    "answer": 2,
+    "explanation": "Put up with means tolerate."
+  },
+  {
+    "id": 155,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The reform brought _____ major improvements.",
+    "options": [
+      "out",
+      "up",
+      "about",
+      "over"
+    ],
+    "answer": 2,
+    "explanation": "Bring about means cause something to happen."
+  },
+  {
+    "id": 156,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The campaign aims to cut down _____ plastic.",
+    "options": [
+      "on",
+      "of",
+      "with",
+      "to"
+    ],
+    "answer": 0,
+    "explanation": "Cut down on means reduce consumption."
+  },
+  {
+    "id": 157,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "She will take _____ the family business next year.",
+    "options": [
+      "over",
+      "up",
+      "in",
+      "after"
+    ],
+    "answer": 0,
+    "explanation": "Take over means assume control of something."
+  },
+  {
+    "id": 158,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "They set _____ a committee to investigate the issue.",
+    "options": [
+      "out",
+      "up",
+      "off",
+      "in"
+    ],
+    "answer": 1,
+    "explanation": "Set up means establish or create."
+  },
+  {
+    "id": 159,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "We have run _____ printer ink.",
+    "options": [
+      "away",
+      "over",
+      "up",
+      "out of"
+    ],
+    "answer": 3,
+    "explanation": "Run out of means have none left."
+  },
+  {
+    "id": 160,
+    "category": "Phrasal verbs",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The meeting was put _____ until Friday.",
+    "options": [
+      "off",
+      "out",
+      "up",
+      "away"
+    ],
+    "answer": 0,
+    "explanation": "Put off means postpone."
+  },
+  {
+    "id": 161,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The new system is highly _____.",
+    "options": [
+      "rely",
+      "reliance",
+      "reliable",
+      "reliably"
+    ],
+    "answer": 2,
+    "explanation": "Reliable is the adjective needed after is."
+  },
+  {
+    "id": 162,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The project was a great _____.",
+    "options": [
+      "success",
+      "successful",
+      "succeed",
+      "successfully"
+    ],
+    "answer": 0,
+    "explanation": "Success is the noun required after a."
+  },
+  {
+    "id": 163,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The policy is _____ because it reduces waste without raising costs.",
+    "options": [
+      "economy",
+      "economical",
+      "economic",
+      "economically"
+    ],
+    "answer": 1,
+    "explanation": "Economical means avoiding waste or expense."
+  },
+  {
+    "id": 164,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "It was _____ to check the figures twice.",
+    "options": [
+      "sense",
+      "sensible",
+      "sensitivity",
+      "sensibly"
+    ],
+    "answer": 1,
+    "explanation": "Sensible is the adjective describing the action."
+  },
+  {
+    "id": 165,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The museum is in a _____ building from the nineteenth century.",
+    "options": [
+      "history",
+      "historical",
+      "historic",
+      "historically"
+    ],
+    "answer": 2,
+    "explanation": "Historic means important in history; historical means related to history."
+  },
+  {
+    "id": 166,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "She studies _____ music at the conservatoire.",
+    "options": [
+      "classic",
+      "classical",
+      "classify",
+      "classically"
+    ],
+    "answer": 1,
+    "explanation": "Classical describes the musical tradition."
+  },
+  {
+    "id": 167,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The report gives _____ guidance on data protection.",
+    "options": [
+      "practice",
+      "practise",
+      "practical",
+      "practically"
+    ],
+    "answer": 2,
+    "explanation": "Practical is the adjective meaning useful in real situations."
+  },
+  {
+    "id": 168,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Managers are _____ for protecting staff information.",
+    "options": [
+      "responsibility",
+      "responsible",
+      "respond",
+      "responsibly"
+    ],
+    "answer": 1,
+    "explanation": "Responsible is followed by for."
+  },
+  {
+    "id": 169,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The change was highly _____.",
+    "options": [
+      "effect",
+      "effective",
+      "effectively",
+      "effects"
+    ],
+    "answer": 1,
+    "explanation": "Effective is the adjective after was."
+  },
+  {
+    "id": 170,
+    "category": "Word choice",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The project requires a _____ amount of funding.",
+    "options": [
+      "consider",
+      "considerably",
+      "consideration",
+      "considerable"
+    ],
+    "answer": 3,
+    "explanation": "Considerable modifies the noun amount."
+  },
+  {
+    "id": 171,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The company was founded _____ 2019.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "by"
+    ],
+    "answer": 2,
+    "explanation": "In is used with years."
+  },
+  {
+    "id": 172,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The workshop is _____ Monday morning.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "answer": 0,
+    "explanation": "On is used with days and dates."
+  },
+  {
+    "id": 173,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The alarm went off _____ midnight.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "during"
+    ],
+    "answer": 2,
+    "explanation": "At is used with precise clock times and midnight."
+  },
+  {
+    "id": 174,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Please send the form _____ Friday.",
+    "options": [
+      "since",
+      "during",
+      "within",
+      "by"
+    ],
+    "answer": 3,
+    "explanation": "By means no later than a deadline."
+  },
+  {
+    "id": 175,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "She has worked here _____ January.",
+    "options": [
+      "for",
+      "during",
+      "since",
+      "by"
+    ],
+    "answer": 2,
+    "explanation": "Since introduces the starting point of a period."
+  },
+  {
+    "id": 176,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "They have lived there _____ three years.",
+    "options": [
+      "since",
+      "for",
+      "during",
+      "by"
+    ],
+    "answer": 1,
+    "explanation": "For introduces the duration of a period."
+  },
+  {
+    "id": 177,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Nobody spoke _____ the interview.",
+    "options": [
+      "since",
+      "during",
+      "by",
+      "until"
+    ],
+    "answer": 1,
+    "explanation": "During means throughout an event or period."
+  },
+  {
+    "id": 178,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The decision was supported by people _____ several departments.",
+    "options": [
+      "between",
+      "among",
+      "within",
+      "across"
+    ],
+    "answer": 1,
+    "explanation": "Among is used for distribution within a group."
+  },
+  {
+    "id": 179,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "We had to choose _____ two possible dates.",
+    "options": [
+      "among",
+      "within",
+      "between",
+      "across"
+    ],
+    "answer": 2,
+    "explanation": "Between is used for two alternatives."
+  },
+  {
+    "id": 180,
+    "category": "Time & place prepositions",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The repairs should be completed _____ a week.",
+    "options": [
+      "at",
+      "on",
+      "since",
+      "within"
+    ],
+    "answer": 3,
+    "explanation": "Within means before the end of a period."
+  },
+  {
+    "id": 181,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The revised plan is _____ more practical than the first.",
+    "options": [
+      "very",
+      "far",
+      "muchly",
+      "so"
+    ],
+    "answer": 1,
+    "explanation": "Far can intensify a comparative adjective."
+  },
+  {
+    "id": 182,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The result was no less impressive _____ we expected.",
+    "options": [
+      "as",
+      "than",
+      "that",
+      "which"
+    ],
+    "answer": 1,
+    "explanation": "No less ... than is the standard comparison."
+  },
+  {
+    "id": 183,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The sooner we decide, _____ it will be to organise the work.",
+    "options": [
+      "the easiest",
+      "the easier",
+      "easier",
+      "the most easy"
+    ],
+    "answer": 1,
+    "explanation": "The comparative correlative uses the sooner ... the easier."
+  },
+  {
+    "id": 184,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "She earns as _____ as her colleagues.",
+    "options": [
+      "many",
+      "more",
+      "much",
+      "most"
+    ],
+    "answer": 2,
+    "explanation": "Much is used with the uncountable noun money understood here."
+  },
+  {
+    "id": 185,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The instructions were too complex _____ quickly.",
+    "options": [
+      "for understand",
+      "to understand",
+      "understanding",
+      "that understand"
+    ],
+    "answer": 1,
+    "explanation": "Too + adjective is followed by to-infinitive."
+  },
+  {
+    "id": 186,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The room is large enough _____ thirty people.",
+    "options": [
+      "accommodate",
+      "accommodating",
+      "to accommodate",
+      "that accommodate"
+    ],
+    "answer": 2,
+    "explanation": "Enough + adjective is followed by to-infinitive."
+  },
+  {
+    "id": 187,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "The explanation was so clear _____ everyone understood it.",
+    "options": [
+      "than",
+      "as",
+      "that",
+      "to"
+    ],
+    "answer": 2,
+    "explanation": "So + adjective is followed by that + clause."
+  },
+  {
+    "id": 188,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "It was such a difficult decision _____ nobody wanted to make it.",
+    "options": [
+      "as",
+      "than",
+      "that",
+      "to"
+    ],
+    "answer": 2,
+    "explanation": "Such + noun phrase is followed by that + clause."
+  },
+  {
+    "id": 189,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "Rather _____ cancel the event, they moved it online.",
+    "options": [
+      "to",
+      "than",
+      "as",
+      "from"
+    ],
+    "answer": 1,
+    "explanation": "Rather than introduces an alternative."
+  },
+  {
+    "id": 190,
+    "category": "Comparisons & degree",
+    "level": "C1",
+    "difficulty": "High",
+    "prompt": "This year's figures are not nearly _____ high as last year's.",
+    "options": [
+      "than",
+      "so",
+      "as",
+      "more"
+    ],
+    "answer": 2,
+    "explanation": "Not nearly as ... as is used for a much lower comparison."
+  },
+  {
+    "id": 191,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It is essential that every applicant _____ the form today.",
+    "options": [
+      "submit",
+      "submits",
+      "submitted",
+      "to submit"
+    ],
+    "answer": 0,
+    "explanation": "Mandative subjunctive uses the base form after essential that."
+  },
+  {
+    "id": 192,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "I suggest that she _____ the evidence again.",
+    "options": [
+      "reviews",
+      "review",
+      "reviewed",
+      "to review"
+    ],
+    "answer": 1,
+    "explanation": "The formal subjunctive uses the base form after suggest that."
+  },
+  {
+    "id": 193,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The report recommends that the policy _____ revised.",
+    "options": [
+      "is",
+      "was",
+      "be",
+      "to be"
+    ],
+    "answer": 2,
+    "explanation": "Be is the subjunctive form in a passive recommendation."
+  },
+  {
+    "id": 194,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "He had his car _____.",
+    "options": [
+      "repair",
+      "repairing",
+      "repaired",
+      "to repair"
+    ],
+    "answer": 2,
+    "explanation": "Have + object + past participle expresses an arranged service."
+  },
+  {
+    "id": 195,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It was John _____ found the missing document.",
+    "options": [
+      "which",
+      "who",
+      "what",
+      "where"
+    ],
+    "answer": 1,
+    "explanation": "A cleft sentence uses who for a person."
+  },
+  {
+    "id": 196,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "_____ I need is a clear timetable.",
+    "options": [
+      "That",
+      "Which",
+      "What",
+      "Where"
+    ],
+    "answer": 2,
+    "explanation": "What introduces the noun clause in a pseudo-cleft."
+  },
+  {
+    "id": 197,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "The fact _____ prices have risen affects everyone.",
+    "options": [
+      "which",
+      "what",
+      "that",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "That introduces the content clause after the fact."
+  },
+  {
+    "id": 198,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "There is no point _____ about the decision now.",
+    "options": [
+      "to argue",
+      "argue",
+      "in arguing",
+      "argued"
+    ],
+    "answer": 2,
+    "explanation": "There is no point in is followed by a gerund."
+  },
+  {
+    "id": 199,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "It is worth _____ the alternative before deciding.",
+    "options": [
+      "consider",
+      "to consider",
+      "considering",
+      "considered"
+    ],
+    "answer": 2,
+    "explanation": "Worth is followed by a gerund."
+  },
+  {
+    "id": 200,
+    "category": "Advanced structures",
+    "level": "B2",
+    "difficulty": "Medium",
+    "prompt": "Have you ever considered _____ abroad?",
+    "options": [
+      "work",
+      "to work",
+      "working",
+      "worked"
+    ],
+    "answer": 2,
+    "explanation": "Consider is followed by a gerund."
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "By next Friday, the engineers _____ the prototype.",
+    "options": [
+      "will have tested",
+      "test",
+      "have tested",
+      "tested"
+    ],
+    "answer": 0,
+    "explanation": "Future perfect describes an action completed by a future deadline.",
+    "id": 201,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "She _____ three interviews this week.",
+    "options": [
+      "attended",
+      "has attended",
+      "was attending",
+      "had attended"
+    ],
+    "answer": 1,
+    "explanation": "Present perfect is used for an unfinished time period connected with now.",
+    "id": 202,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "While the guests arrived, the musicians _____.",
+    "options": [
+      "played",
+      "have played",
+      "were playing",
+      "had played"
+    ],
+    "answer": 2,
+    "explanation": "Past continuous describes an action in progress at a past moment.",
+    "id": 203,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "He _____ the same route every morning before he moved.",
+    "options": [
+      "has taken",
+      "takes",
+      "was taking",
+      "used to take"
+    ],
+    "answer": 3,
+    "explanation": "Used to describes a past habit that is no longer true.",
+    "id": 204,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "The temperature _____ steadily since dawn.",
+    "options": [
+      "has been rising",
+      "rose",
+      "was rising",
+      "had risen"
+    ],
+    "answer": 0,
+    "explanation": "Present perfect continuous emphasises an activity continuing up to now.",
+    "id": 205,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "When we checked, the team _____ the final figures.",
+    "options": [
+      "has entered",
+      "had entered",
+      "enters",
+      "was enter"
+    ],
+    "answer": 1,
+    "explanation": "Past perfect places the completed entry before the checking.",
+    "id": 206,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "This time tomorrow, I _____ across the Atlantic.",
+    "options": [
+      "flew",
+      "have flown",
+      "will be flying",
+      "had flown"
+    ],
+    "answer": 2,
+    "explanation": "Future continuous describes an action in progress at a future time.",
+    "id": 207,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "The museum _____ its doors at ten every day.",
+    "options": [
+      "is opening",
+      "has opened",
+      "opened",
+      "opens"
+    ],
+    "answer": 3,
+    "explanation": "Present simple describes a regular timetable.",
+    "id": 208,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "I _____ this book twice, so I can lend it to you.",
+    "options": [
+      "have read",
+      "read",
+      "was reading",
+      "had read"
+    ],
+    "answer": 0,
+    "explanation": "Present perfect describes a completed experience relevant now.",
+    "id": 209,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Tense & aspect",
+    "prompt": "They _____ for an hour when the lights went out.",
+    "options": [
+      "waited",
+      "had been waiting",
+      "have waited",
+      "are waiting"
+    ],
+    "answer": 1,
+    "explanation": "Past perfect continuous shows duration before another past event.",
+    "id": 210,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "If the forecast improves, we _____ the event outdoors.",
+    "options": [
+      "hold",
+      "held",
+      "will hold",
+      "would hold"
+    ],
+    "answer": 2,
+    "explanation": "A real future condition takes present simple plus will.",
+    "id": 211,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "If I _____ more confident, I would apply for the role.",
+    "options": [
+      "am",
+      "had been",
+      "will be",
+      "were"
+    ],
+    "answer": 3,
+    "explanation": "Were is the formal form in an unreal present condition.",
+    "id": 212,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "If they had booked earlier, they _____ less.",
+    "options": [
+      "would have paid",
+      "will pay",
+      "would pay",
+      "paid"
+    ],
+    "answer": 0,
+    "explanation": "Third conditional results use would have plus a past participle.",
+    "id": 213,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "You can borrow the car provided that you _____ it by six.",
+    "options": [
+      "returned",
+      "return",
+      "will return",
+      "would return"
+    ],
+    "answer": 1,
+    "explanation": "Provided that introduces a condition with present simple for a future arrangement.",
+    "id": 214,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "If she had accepted the post, she _____ in Berlin now.",
+    "options": [
+      "will live",
+      "would have lived",
+      "would be living",
+      "lived"
+    ],
+    "answer": 2,
+    "explanation": "This mixed conditional links an unreal past cause with a present result.",
+    "id": 215,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "Unless we leave now, we _____ the opening talk.",
+    "options": [
+      "missed",
+      "would miss",
+      "had missed",
+      "will miss"
+    ],
+    "answer": 3,
+    "explanation": "Unless means if not; the result here is a likely future consequence.",
+    "id": 216,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "Had he read the warning, he _____ the device incorrectly.",
+    "options": [
+      "would not have used",
+      "will not use",
+      "would not use",
+      "did not use"
+    ],
+    "answer": 0,
+    "explanation": "Had he read is an inverted third conditional.",
+    "id": 217,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "I wish you _____ interrupting during meetings.",
+    "options": [
+      "stop",
+      "would stop",
+      "had stopped",
+      "stopped"
+    ],
+    "answer": 1,
+    "explanation": "Wish plus would expresses a desire for another person to change a repeated behaviour.",
+    "id": 218,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "It is time the council _____ the issue seriously.",
+    "options": [
+      "takes",
+      "had taken",
+      "took",
+      "would take"
+    ],
+    "answer": 2,
+    "explanation": "It is time is followed by a past form for present criticism.",
+    "id": 219,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Conditionals",
+    "prompt": "But for the extra funding, the project _____ cancelled.",
+    "options": [
+      "will be",
+      "would be",
+      "was",
+      "would have been"
+    ],
+    "answer": 3,
+    "explanation": "But for refers to an unreal past condition in this context.",
+    "id": 220,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "The lights are on, so someone _____ be inside.",
+    "options": [
+      "must",
+      "needn’t",
+      "can’t",
+      "wouldn’t"
+    ],
+    "answer": 0,
+    "explanation": "Must be expresses a strong present deduction.",
+    "id": 221,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "She _____ have misunderstood the address; she went to the wrong street.",
+    "options": [
+      "mustn’t",
+      "may",
+      "needn’t",
+      "would"
+    ],
+    "answer": 1,
+    "explanation": "May have misunderstood expresses a possible past explanation.",
+    "id": 222,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "You _____ have told me sooner; I could have helped.",
+    "options": [
+      "must",
+      "can",
+      "should",
+      "need"
+    ],
+    "answer": 2,
+    "explanation": "Should have told expresses criticism of an action that was not done.",
+    "id": 223,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "Visitors _____ leave bags in the lockers.",
+    "options": [
+      "could",
+      "would",
+      "might",
+      "must"
+    ],
+    "answer": 3,
+    "explanation": "Must expresses a requirement.",
+    "id": 224,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "The bridge _____ be closed after the storm.",
+    "options": [
+      "could",
+      "mustn’t",
+      "needn’t",
+      "wouldn’t"
+    ],
+    "answer": 0,
+    "explanation": "Could be expresses a possible present or future situation.",
+    "id": 225,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "He _____ have been informed about the change; he mentioned it yesterday.",
+    "options": [
+      "can’t",
+      "must",
+      "needn’t",
+      "wouldn’t"
+    ],
+    "answer": 1,
+    "explanation": "Must have been informed expresses a strong deduction about the past.",
+    "id": 226,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "You _____ bring a towel; the hotel provides one.",
+    "options": [
+      "mustn’t",
+      "couldn’t",
+      "needn’t",
+      "wouldn’t"
+    ],
+    "answer": 2,
+    "explanation": "Needn’t expresses a lack of necessity.",
+    "id": 227,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "The parcel _____ arrive before noon if the courier is on time.",
+    "options": [
+      "must",
+      "should",
+      "can’t",
+      "needn’t"
+    ],
+    "answer": 1,
+    "explanation": "Should arrive expresses an expected result.",
+    "id": 228,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "Employees _____ use the emergency exit unless there is a real emergency.",
+    "options": [
+      "don’t have to",
+      "could",
+      "mustn’t",
+      "would"
+    ],
+    "answer": 2,
+    "explanation": "Mustn’t expresses prohibition.",
+    "id": 229,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Modals & deduction",
+    "prompt": "With a little more practice, you _____ be able to present confidently.",
+    "options": [
+      "must",
+      "need",
+      "shouldn’t",
+      "should"
+    ],
+    "answer": 3,
+    "explanation": "Should be able to expresses a likely future result.",
+    "id": 230,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "She gave me _____ useful piece of information.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": 0,
+    "explanation": "A precedes useful because it begins with a consonant sound.",
+    "id": 231,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "We visited _____ Louvre during our trip.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": 2,
+    "explanation": "The is used with the name of this museum.",
+    "id": 232,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "There were _____ reasons to postpone the launch.",
+    "options": [
+      "much",
+      "several",
+      "a little",
+      "every"
+    ],
+    "answer": 1,
+    "explanation": "Several modifies a countable plural noun.",
+    "id": 233,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "I have not received _____ information about the changes.",
+    "options": [
+      "many",
+      "a few",
+      "any",
+      "an"
+    ],
+    "answer": 2,
+    "explanation": "Any is natural in a negative sentence with an uncountable noun.",
+    "id": 234,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "_____ of the two routes is suitable for wheelchairs.",
+    "options": [
+      "Every",
+      "Neither",
+      "Much",
+      "Another"
+    ],
+    "answer": 1,
+    "explanation": "Neither refers to not one and not the other of two options.",
+    "id": 235,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "The report contains _____ useful detail on costs.",
+    "options": [
+      "a",
+      "an",
+      "several",
+      "some"
+    ],
+    "answer": 3,
+    "explanation": "Some can modify uncountable detail.",
+    "id": 236,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "We need _____ further evidence before deciding.",
+    "options": [
+      "a",
+      "an",
+      "some",
+      "many"
+    ],
+    "answer": 2,
+    "explanation": "Evidence is uncountable and takes some here.",
+    "id": 237,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "_____ applicant must sign the declaration.",
+    "options": [
+      "Each",
+      "Several",
+      "Much",
+      "Few"
+    ],
+    "answer": 0,
+    "explanation": "Each takes a singular countable noun and verb.",
+    "id": 238,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "There is not _____ room for another desk.",
+    "options": [
+      "many",
+      "a few",
+      "enough",
+      "several"
+    ],
+    "answer": 2,
+    "explanation": "Enough modifies the uncountable noun room.",
+    "id": 239,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Articles & determiners",
+    "prompt": "I spoke to _____ of my former colleagues yesterday.",
+    "options": [
+      "every",
+      "both",
+      "much",
+      "another"
+    ],
+    "answer": 1,
+    "explanation": "Both refers to the two members of a pair.",
+    "id": 240,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "The board agreed _____ the proposal again.",
+    "options": [
+      "reviewing",
+      "review",
+      "to review",
+      "reviewed"
+    ],
+    "answer": 2,
+    "explanation": "Agree is followed by a to-infinitive.",
+    "id": 241,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "She denied _____ the figures.",
+    "options": [
+      "to alter",
+      "altering",
+      "alter",
+      "altered"
+    ],
+    "answer": 1,
+    "explanation": "Deny is followed by a gerund.",
+    "id": 242,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "The teacher encouraged us _____ questions.",
+    "options": [
+      "asking",
+      "ask",
+      "to ask",
+      "asked"
+    ],
+    "answer": 2,
+    "explanation": "Encourage + object takes to + infinitive.",
+    "id": 243,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "I cannot afford _____ another month.",
+    "options": [
+      "wait",
+      "waiting",
+      "to wait",
+      "waited"
+    ],
+    "answer": 2,
+    "explanation": "Afford is followed by a to-infinitive.",
+    "id": 244,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "They postponed _____ the announcement.",
+    "options": [
+      "to make",
+      "make",
+      "making",
+      "made"
+    ],
+    "answer": 2,
+    "explanation": "Postpone is followed by a gerund.",
+    "id": 245,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "The film is worth _____.",
+    "options": [
+      "see",
+      "to see",
+      "seeing",
+      "seen"
+    ],
+    "answer": 2,
+    "explanation": "Worth is followed by a gerund.",
+    "id": 246,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "He helped me _____ the equipment.",
+    "options": [
+      "to carry",
+      "carrying",
+      "carried",
+      "carries"
+    ],
+    "answer": 0,
+    "explanation": "Help can be followed by a to-infinitive or bare infinitive.",
+    "id": 247,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "We had difficulty _____ the signal.",
+    "options": [
+      "to receive",
+      "receiving",
+      "receive",
+      "received"
+    ],
+    "answer": 1,
+    "explanation": "Have difficulty is followed by a gerund.",
+    "id": 248,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "Remember _____ the attachment before sending the email.",
+    "options": [
+      "checking",
+      "check",
+      "to check",
+      "checked"
+    ],
+    "answer": 2,
+    "explanation": "Remember to do something refers to a future duty.",
+    "id": 249,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Verb patterns",
+    "prompt": "She regrets _____ the opportunity.",
+    "options": [
+      "to miss",
+      "miss",
+      "missing",
+      "missed"
+    ],
+    "answer": 2,
+    "explanation": "Regret + gerund refers to an action that has already happened.",
+    "id": 250,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "The new library is expected _____ next spring.",
+    "options": [
+      "opening",
+      "to open",
+      "open",
+      "opened"
+    ],
+    "answer": 1,
+    "explanation": "Is expected to is a passive reporting structure.",
+    "id": 251,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "The documents _____ by a specialist yesterday.",
+    "options": [
+      "checked",
+      "were checked",
+      "have checking",
+      "are checking"
+    ],
+    "answer": 1,
+    "explanation": "Were checked is the simple past passive.",
+    "id": 252,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "The suspect was seen _____ the building.",
+    "options": [
+      "leave",
+      "to leave",
+      "left",
+      "leaving to"
+    ],
+    "answer": 1,
+    "explanation": "See in the passive is followed by a to-infinitive.",
+    "id": 253,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "We got the heating system _____.",
+    "options": [
+      "repair",
+      "repairing",
+      "repaired",
+      "to repair"
+    ],
+    "answer": 2,
+    "explanation": "Get + object + past participle describes an arranged service.",
+    "id": 254,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "It is believed that the painting _____ in 1890.",
+    "options": [
+      "created",
+      "was created",
+      "has creating",
+      "creates"
+    ],
+    "answer": 1,
+    "explanation": "Was created is needed for a past passive event.",
+    "id": 255,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "The manager had the contract _____.",
+    "options": [
+      "translate",
+      "translated",
+      "translating",
+      "to translate"
+    ],
+    "answer": 1,
+    "explanation": "Have + object + past participle expresses an arranged service.",
+    "id": 256,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "The missing files are thought _____ accidentally.",
+    "options": [
+      "delete",
+      "to delete",
+      "to have been deleted",
+      "deleting"
+    ],
+    "answer": 2,
+    "explanation": "The perfect passive infinitive refers to an earlier event.",
+    "id": 257,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "The witness was made _____ the statement again.",
+    "options": [
+      "repeat",
+      "repeating",
+      "to repeat",
+      "repeated"
+    ],
+    "answer": 2,
+    "explanation": "Make in the passive is followed by to + infinitive.",
+    "id": 258,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "Several solutions _____ being considered.",
+    "options": [
+      "is",
+      "has",
+      "are",
+      "be"
+    ],
+    "answer": 2,
+    "explanation": "Are being considered is the present continuous passive.",
+    "id": 259,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Passive & reporting",
+    "prompt": "The results should _____ before publication.",
+    "options": [
+      "verify",
+      "be verified",
+      "verified",
+      "verifying"
+    ],
+    "answer": 1,
+    "explanation": "A modal passive uses modal + be + past participle.",
+    "id": 260,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The engineer _____ designed the bridge won an award.",
+    "options": [
+      "which",
+      "whose",
+      "who",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "Who refers to a person as the subject of the relative clause.",
+    "id": 261,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The village _____ my grandparents lived is now a town.",
+    "options": [
+      "which",
+      "where",
+      "what",
+      "whose"
+    ],
+    "answer": 1,
+    "explanation": "Where refers to a place.",
+    "id": 262,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The proposal, _____ was approved yesterday, starts in June.",
+    "options": [
+      "that",
+      "what",
+      "which",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "Which introduces a non-defining relative clause.",
+    "id": 263,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The author _____ books we studied is visiting the school.",
+    "options": [
+      "who",
+      "whose",
+      "which",
+      "where"
+    ],
+    "answer": 1,
+    "explanation": "Whose expresses possession.",
+    "id": 264,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The advice _____ you gave me was helpful.",
+    "options": [
+      "what",
+      "where",
+      "which",
+      "whose"
+    ],
+    "answer": 2,
+    "explanation": "Which refers to the thing in a defining relative clause.",
+    "id": 265,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "_____ finishes first can choose the next activity.",
+    "options": [
+      "Whatever",
+      "Whoever",
+      "Which",
+      "Where"
+    ],
+    "answer": 1,
+    "explanation": "Whoever refers to any person who performs the action.",
+    "id": 266,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The files _____ on the server are encrypted.",
+    "options": [
+      "stored",
+      "storing",
+      "to store",
+      "were stored"
+    ],
+    "answer": 0,
+    "explanation": "A past participle can reduce a passive relative clause.",
+    "id": 267,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The students _____ near the window are in my class.",
+    "options": [
+      "sit",
+      "sitting",
+      "sat",
+      "to sit"
+    ],
+    "answer": 1,
+    "explanation": "The present participle reduces who are sitting.",
+    "id": 268,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "The reason _____ she resigned was never explained.",
+    "options": [
+      "where",
+      "which",
+      "why",
+      "what"
+    ],
+    "answer": 2,
+    "explanation": "Why follows reason in a relative clause.",
+    "id": 269,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Relative clauses",
+    "prompt": "This is the laboratory in _____ the samples were analysed.",
+    "options": [
+      "what",
+      "where",
+      "which",
+      "whose"
+    ],
+    "answer": 2,
+    "explanation": "In which is the formal relative form for a place or institution.",
+    "id": 270,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Rarely _____ a decision caused so much debate.",
+    "options": [
+      "has",
+      "does",
+      "is",
+      "was"
+    ],
+    "answer": 0,
+    "explanation": "Rarely at the beginning triggers auxiliary inversion.",
+    "id": 271,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Not until the end _____ we understand the warning.",
+    "options": [
+      "had",
+      "did",
+      "were",
+      "have"
+    ],
+    "answer": 1,
+    "explanation": "Not until at the beginning takes did + subject + base verb.",
+    "id": 272,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Only then _____ the scale of the problem become clear.",
+    "options": [
+      "did",
+      "has",
+      "was",
+      "would"
+    ],
+    "answer": 0,
+    "explanation": "Only then triggers inversion with did in the past.",
+    "id": 273,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Under no circumstances _____ this switch be touched.",
+    "options": [
+      "does",
+      "should",
+      "has",
+      "was"
+    ],
+    "answer": 1,
+    "explanation": "Under no circumstances is followed by modal inversion.",
+    "id": 274,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Hardly _____ the lecture begun when the alarm sounded.",
+    "options": [
+      "did",
+      "was",
+      "had",
+      "has"
+    ],
+    "answer": 2,
+    "explanation": "Hardly had + subject + past participle pairs with when.",
+    "id": 275,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "No sooner had she arrived _____ the meeting started.",
+    "options": [
+      "when",
+      "while",
+      "than",
+      "that"
+    ],
+    "answer": 2,
+    "explanation": "No sooner pairs with than.",
+    "id": 276,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Little _____ he realise how useful the training would be.",
+    "options": [
+      "has",
+      "was",
+      "did",
+      "had"
+    ],
+    "answer": 2,
+    "explanation": "Little did he realise is a fixed emphatic inversion.",
+    "id": 277,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "So demanding _____ the schedule that several staff resigned.",
+    "options": [
+      "did",
+      "was",
+      "had",
+      "would"
+    ],
+    "answer": 1,
+    "explanation": "So + adjective at the beginning is followed by inverted be.",
+    "id": 278,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Never before _____ the team faced such a tight deadline.",
+    "options": [
+      "has",
+      "did",
+      "had",
+      "was"
+    ],
+    "answer": 2,
+    "explanation": "Past perfect is used for an experience before a past reference point.",
+    "id": 279,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Inversion & emphasis",
+    "prompt": "Only by sharing information _____ the departments improve.",
+    "options": [
+      "can",
+      "did",
+      "has",
+      "were"
+    ],
+    "answer": 0,
+    "explanation": "Only by + gerund takes modal inversion.",
+    "id": 280,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "_____ the heavy traffic, we arrived on time.",
+    "options": [
+      "Although",
+      "Despite",
+      "However",
+      "Whereas"
+    ],
+    "answer": 1,
+    "explanation": "Despite is followed by a noun phrase.",
+    "id": 281,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "The plan is ambitious; _____, it is achievable.",
+    "options": [
+      "because",
+      "nevertheless",
+      "despite",
+      "so that"
+    ],
+    "answer": 1,
+    "explanation": "Nevertheless links contrasting independent statements.",
+    "id": 282,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "She took notes _____ she would remember the key points.",
+    "options": [
+      "so that",
+      "despite",
+      "whereas",
+      "in spite"
+    ],
+    "answer": 0,
+    "explanation": "So that introduces a purpose clause.",
+    "id": 283,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "The first option is cheaper, _____ the second is more durable.",
+    "options": [
+      "although",
+      "because",
+      "whereas",
+      "despite"
+    ],
+    "answer": 2,
+    "explanation": "Whereas contrasts two clauses.",
+    "id": 284,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "_____ being nervous, he gave a clear presentation.",
+    "options": [
+      "Although",
+      "In spite of",
+      "Because",
+      "However"
+    ],
+    "answer": 1,
+    "explanation": "In spite of is followed by a gerund phrase.",
+    "id": 285,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "The team changed the design _____ reduce maintenance costs.",
+    "options": [
+      "so that",
+      "in order to",
+      "despite",
+      "whereas"
+    ],
+    "answer": 1,
+    "explanation": "In order to introduces a purpose with a base verb.",
+    "id": 286,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "The data were incomplete. _____, the conclusion was useful.",
+    "options": [
+      "Nevertheless",
+      "Because",
+      "Although",
+      "Despite"
+    ],
+    "answer": 0,
+    "explanation": "Nevertheless connects two contrasting sentences.",
+    "id": 287,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "_____ the system is expensive, it saves time in the long term.",
+    "options": [
+      "Despite",
+      "Although",
+      "In spite",
+      "However"
+    ],
+    "answer": 1,
+    "explanation": "Although introduces a clause with subject and verb.",
+    "id": 288,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "The more carefully you plan, _____ the result will be.",
+    "options": [
+      "more reliable",
+      "the more reliable",
+      "most reliable",
+      "reliably"
+    ],
+    "answer": 1,
+    "explanation": "The comparative correlative uses the more ... the more.",
+    "id": 289,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Linkers & discourse",
+    "prompt": "The route was longer; _____, it was safer.",
+    "options": [
+      "because",
+      "however",
+      "despite",
+      "so that"
+    ],
+    "answer": 1,
+    "explanation": "However signals contrast after a semicolon.",
+    "id": 290,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "The outcome depends _____ how carefully the plan is implemented.",
+    "options": [
+      "of",
+      "on",
+      "to",
+      "with"
+    ],
+    "answer": 1,
+    "explanation": "Depend is followed by on.",
+    "id": 291,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "She is committed _____ improving access to training.",
+    "options": [
+      "for",
+      "with",
+      "to",
+      "at"
+    ],
+    "answer": 2,
+    "explanation": "Committed is followed by to + gerund.",
+    "id": 292,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "The report focuses _____ the causes of the decline.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+    ],
+    "answer": 2,
+    "explanation": "Focus is followed by on.",
+    "id": 293,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "They objected _____ changing the timetable.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "on"
+    ],
+    "answer": 0,
+    "explanation": "Object is followed by to + gerund.",
+    "id": 294,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "The findings are consistent _____ earlier research.",
+    "options": [
+      "to",
+      "of",
+      "with",
+      "for"
+    ],
+    "answer": 2,
+    "explanation": "Consistent is followed by with.",
+    "id": 295,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "The company specialises _____ renewable materials.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": 1,
+    "explanation": "Specialise is followed by in.",
+    "id": 296,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "The team complied _____ the safety regulations.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "on"
+    ],
+    "answer": 2,
+    "explanation": "Comply is followed by with.",
+    "id": 297,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "There is a shortage _____ qualified technicians.",
+    "options": [
+      "for",
+      "of",
+      "with",
+      "to"
+    ],
+    "answer": 1,
+    "explanation": "Shortage is followed by of.",
+    "id": 298,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "The result was partly attributable _____ poor planning.",
+    "options": [
+      "with",
+      "for",
+      "to",
+      "on"
+    ],
+    "answer": 2,
+    "explanation": "Attributable is followed by to.",
+    "id": 299,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Prepositions & collocations",
+    "prompt": "We need to distinguish _____ evidence and opinion.",
+    "options": [
+      "among",
+      "between",
+      "to",
+      "with"
+    ],
+    "answer": 1,
+    "explanation": "Distinguish between is used for two things.",
+    "id": 300,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "She explained that the office _____ at six.",
+    "options": [
+      "closes",
+      "closed",
+      "would close",
+      "has closed"
+    ],
+    "answer": 1,
+    "explanation": "Backshift after a past reporting verb changes present simple to past simple.",
+    "id": 301,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "He asked me _____ I had seen the message.",
+    "options": [
+      "that",
+      "what",
+      "whether",
+      "which"
+    ],
+    "answer": 2,
+    "explanation": "Whether introduces a reported yes-or-no question.",
+    "id": 302,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "The guide advised us _____ comfortable shoes.",
+    "options": [
+      "wear",
+      "wearing",
+      "to wear",
+      "wore"
+    ],
+    "answer": 2,
+    "explanation": "Advise + object takes to + infinitive.",
+    "id": 303,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "They denied _____ the figures.",
+    "options": [
+      "to alter",
+      "altering",
+      "alter",
+      "to altering"
+    ],
+    "answer": 1,
+    "explanation": "Deny is followed by a gerund.",
+    "id": 304,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "She promised she _____ the documents that evening.",
+    "options": [
+      "sends",
+      "sent",
+      "would send",
+      "has sent"
+    ],
+    "answer": 2,
+    "explanation": "Would is the backshifted form of will.",
+    "id": 305,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "He wondered where the nearest station _____.",
+    "options": [
+      "is",
+      "was",
+      "be",
+      "has been"
+    ],
+    "answer": 1,
+    "explanation": "Reported questions use statement word order and backshift here.",
+    "id": 306,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "The manager told the interns _____ the deadline.",
+    "options": [
+      "not miss",
+      "not to miss",
+      "not missing",
+      "did not miss"
+    ],
+    "answer": 1,
+    "explanation": "Tell + object + not to-infinitive gives a negative instruction.",
+    "id": 307,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "The witness claimed _____ the accident.",
+    "options": [
+      "to have seen",
+      "seeing to",
+      "have seen",
+      "to seeing"
+    ],
+    "answer": 0,
+    "explanation": "Claim can take a perfect infinitive for an earlier action.",
+    "id": 308,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "He suggested that we _____ the figures independently.",
+    "options": [
+      "check",
+      "checked",
+      "to check",
+      "checking"
+    ],
+    "answer": 0,
+    "explanation": "Suggest that can be followed by the base form in the formal subjunctive.",
+    "id": 309,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Reported speech",
+    "prompt": "She asked me what I _____ for a living.",
+    "options": [
+      "do",
+      "did",
+      "have done",
+      "am doing"
+    ],
+    "answer": 1,
+    "explanation": "Reported questions commonly backshift present simple to past simple.",
+    "id": 310,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "The news _____ encouraging this morning.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have been"
+    ],
+    "answer": 2,
+    "explanation": "News is an uncountable singular noun.",
+    "id": 311,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "A number of students _____ applied for the course.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "was"
+    ],
+    "answer": 1,
+    "explanation": "A number of takes a plural verb.",
+    "id": 312,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "The equipment _____ stored in a locked room.",
+    "options": [
+      "are",
+      "were",
+      "have",
+      "is"
+    ],
+    "answer": 3,
+    "explanation": "Equipment is an uncountable singular noun.",
+    "id": 313,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "Neither the manager nor the assistants _____ available.",
+    "options": [
+      "was",
+      "is",
+      "has",
+      "were"
+    ],
+    "answer": 3,
+    "explanation": "With neither ... nor, the verb agrees with the nearer plural subject.",
+    "id": 314,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "The police _____ investigating the incident.",
+    "options": [
+      "is",
+      "was",
+      "has",
+      "are"
+    ],
+    "answer": 3,
+    "explanation": "Police takes a plural verb in standard English.",
+    "id": 315,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "Two hours _____ enough time for the visit.",
+    "options": [
+      "are",
+      "were",
+      "have",
+      "is"
+    ],
+    "answer": 3,
+    "explanation": "A measurement of time can take a singular verb when treated as one period.",
+    "id": 316,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "The criteria _____ clearly stated in the guidelines.",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "has"
+    ],
+    "answer": 2,
+    "explanation": "Criteria is the plural of criterion.",
+    "id": 317,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "Every member of the panel _____ a vote.",
+    "options": [
+      "have",
+      "are having",
+      "has",
+      "were having"
+    ],
+    "answer": 2,
+    "explanation": "Every takes a singular verb.",
+    "id": 318,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "The staff _____ divided over the proposal.",
+    "options": [
+      "is",
+      "was",
+      "has",
+      "are"
+    ],
+    "answer": 3,
+    "explanation": "Staff can take a plural verb when referring to individual members.",
+    "id": 319,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Nouns & agreement",
+    "prompt": "Mathematics _____ her favourite subject.",
+    "options": [
+      "are",
+      "were",
+      "have",
+      "is"
+    ],
+    "answer": 3,
+    "explanation": "The subject name Mathematics is singular.",
+    "id": 320,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The revised process is _____ more efficient than the old one.",
+    "options": [
+      "considerable",
+      "considerably",
+      "consider",
+      "considering"
+    ],
+    "answer": 1,
+    "explanation": "An adverb modifies the comparative adjective more efficient.",
+    "id": 321,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The instructions were _____ confusing for new users.",
+    "options": [
+      "high",
+      "highly",
+      "height",
+      "higher"
+    ],
+    "answer": 1,
+    "explanation": "Highly is an adverb modifying confusing.",
+    "id": 322,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The two proposals are _____ different in cost.",
+    "options": [
+      "considerable",
+      "considerably",
+      "considering",
+      "consider"
+    ],
+    "answer": 1,
+    "explanation": "Considerably modifies the adjective different.",
+    "id": 323,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "She gave a _____ detailed explanation.",
+    "options": [
+      "surprisingly",
+      "surprise",
+      "surprised",
+      "surprising"
+    ],
+    "answer": 0,
+    "explanation": "Surprisingly is an adverb modifying detailed.",
+    "id": 324,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The results were _____ better than expected.",
+    "options": [
+      "noticeable",
+      "noticeably",
+      "notice",
+      "noticing"
+    ],
+    "answer": 1,
+    "explanation": "Noticeably modifies the comparative adjective better.",
+    "id": 325,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "He answered the question remarkably _____.",
+    "options": [
+      "clear",
+      "clearly",
+      "clarity",
+      "cleared"
+    ],
+    "answer": 1,
+    "explanation": "Clearly is an adverb describing how he answered.",
+    "id": 326,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The policy is _____ unpopular with local residents.",
+    "options": [
+      "wide",
+      "widely",
+      "widen",
+      "width"
+    ],
+    "answer": 1,
+    "explanation": "Widely is an adverb meaning by many people.",
+    "id": 327,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The machine operates _____ quietly at night.",
+    "options": [
+      "surprising",
+      "surprised",
+      "surprisingly",
+      "surprise"
+    ],
+    "answer": 2,
+    "explanation": "Surprisingly modifies the adverb quietly.",
+    "id": 328,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The change had a _____ positive effect.",
+    "options": [
+      "marked",
+      "markedly",
+      "mark",
+      "marking"
+    ],
+    "answer": 0,
+    "explanation": "Marked is an adjective modifying effect.",
+    "id": 329,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Adverbs & adjectives",
+    "prompt": "The final version is _____ superior to the draft.",
+    "options": [
+      "clear",
+      "clearly",
+      "cleared",
+      "clearing"
+    ],
+    "answer": 1,
+    "explanation": "Clearly is an adverb modifying superior.",
+    "id": 330,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "There is no point _____ about the decision now.",
+    "options": [
+      "to complain",
+      "complain",
+      "in complaining",
+      "complained"
+    ],
+    "answer": 2,
+    "explanation": "There is no point in is followed by a gerund.",
+    "id": 331,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "The company aims _____ emissions by half.",
+    "options": [
+      "reducing",
+      "reduce",
+      "to reduce",
+      "reduced"
+    ],
+    "answer": 2,
+    "explanation": "Aim is followed by a to-infinitive.",
+    "id": 332,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "She is used to _____ early for work.",
+    "options": [
+      "get up",
+      "getting up",
+      "got up",
+      "have got up"
+    ],
+    "answer": 1,
+    "explanation": "Be used to contains a preposition and takes a gerund.",
+    "id": 333,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "He left without _____ goodbye.",
+    "options": [
+      "to say",
+      "say",
+      "saying",
+      "said"
+    ],
+    "answer": 2,
+    "explanation": "Without is a preposition followed by a gerund.",
+    "id": 334,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "I would prefer _____ by train.",
+    "options": [
+      "travel",
+      "travelling",
+      "to travel",
+      "travelled"
+    ],
+    "answer": 2,
+    "explanation": "Prefer can be followed by a to-infinitive.",
+    "id": 335,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "The task requires _____ carefully.",
+    "options": [
+      "to plan",
+      "planning",
+      "plan",
+      "planned"
+    ],
+    "answer": 1,
+    "explanation": "Require is followed by a gerund when the subject is the task.",
+    "id": 336,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "She went to the library _____ for the exam.",
+    "options": [
+      "study",
+      "studying",
+      "to study",
+      "studied"
+    ],
+    "answer": 2,
+    "explanation": "To study expresses purpose.",
+    "id": 337,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "I cannot help _____ about the outcome.",
+    "options": [
+      "worry",
+      "to worry",
+      "worrying",
+      "worried"
+    ],
+    "answer": 2,
+    "explanation": "Cannot help is followed by a gerund.",
+    "id": 338,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "The speaker paused _____ questions from the audience.",
+    "options": [
+      "to take",
+      "taking",
+      "take",
+      "taken"
+    ],
+    "answer": 0,
+    "explanation": "Pause to do something means stop briefly in order to do it.",
+    "id": 339,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Gerunds & infinitives",
+    "prompt": "He objected to _____ treated unfairly.",
+    "options": [
+      "be",
+      "being",
+      "been",
+      "to be"
+    ],
+    "answer": 1,
+    "explanation": "Object to contains a preposition and takes a gerund.",
+    "id": 340,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "The meeting was _____ until Monday.",
+    "options": [
+      "put off",
+      "put out",
+      "put up",
+      "put through"
+    ],
+    "answer": 0,
+    "explanation": "Put off means postpone.",
+    "id": 341,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "Please _____ the lights before you leave.",
+    "options": [
+      "turn into",
+      "turn off",
+      "turn over",
+      "turn against"
+    ],
+    "answer": 1,
+    "explanation": "Turn off means switch off.",
+    "id": 342,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "The researchers _____ a new pattern in the data.",
+    "options": [
+      "came across",
+      "came over",
+      "came down",
+      "came out"
+    ],
+    "answer": 0,
+    "explanation": "Come across means find or notice unexpectedly.",
+    "id": 343,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "We need to _____ a solution before Friday.",
+    "options": [
+      "come up with",
+      "come down with",
+      "come across",
+      "come into"
+    ],
+    "answer": 0,
+    "explanation": "Come up with means think of or produce an idea.",
+    "id": 344,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "She _____ the invitation because she was travelling.",
+    "options": [
+      "turned down",
+      "turned up",
+      "turned into",
+      "turned over"
+    ],
+    "answer": 0,
+    "explanation": "Turn down means refuse.",
+    "id": 345,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "The new manager quickly _____ the team.",
+    "options": [
+      "settled in",
+      "settled for",
+      "settled down to",
+      "settled out"
+    ],
+    "answer": 0,
+    "explanation": "Settle in means become comfortable in a new place or role.",
+    "id": 346,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "The company plans to _____ a survey next month.",
+    "options": [
+      "carry out",
+      "carry on",
+      "carry over",
+      "carry off"
+    ],
+    "answer": 0,
+    "explanation": "Carry out means conduct or perform.",
+    "id": 347,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "The old system will be _____ next year.",
+    "options": [
+      "phased out",
+      "phased in",
+      "phased over",
+      "phased against"
+    ],
+    "answer": 0,
+    "explanation": "Phase out means remove gradually.",
+    "id": 348,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "They _____ the proposal after receiving new evidence.",
+    "options": [
+      "went over",
+      "went off",
+      "went under",
+      "went into"
+    ],
+    "answer": 0,
+    "explanation": "Go over means examine or review.",
+    "id": 349,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Phrasal verbs",
+    "prompt": "The speaker _____ an important distinction.",
+    "options": [
+      "pointed out",
+      "pointed in",
+      "pointed over",
+      "pointed against"
+    ],
+    "answer": 0,
+    "explanation": "Point out means draw attention to.",
+    "id": 350,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "_____ the data carefully, the analyst found an error.",
+    "options": [
+      "Reviewing",
+      "Reviewed",
+      "To reviewing",
+      "Having review"
+    ],
+    "answer": 0,
+    "explanation": "The present participle introduces a simultaneous or connected action.",
+    "id": 351,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "_____ the report, she sent it to the client.",
+    "options": [
+      "Having finished",
+      "Finished",
+      "To finish",
+      "Finish"
+    ],
+    "answer": 0,
+    "explanation": "Having finished shows the earlier completed action.",
+    "id": 352,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "_____ by the sudden noise, the dog ran outside.",
+    "options": [
+      "Startling",
+      "To startle",
+      "Startled",
+      "Having startle"
+    ],
+    "answer": 2,
+    "explanation": "The past participle describes the dog’s state.",
+    "id": 353,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "The results, _____ in June, will guide the next phase.",
+    "options": [
+      "publishing",
+      "published",
+      "publish",
+      "to publishing"
+    ],
+    "answer": 1,
+    "explanation": "Published reduces a passive relative clause.",
+    "id": 354,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "The team worked late, _____ the deadline was close.",
+    "options": [
+      "because",
+      "despite",
+      "whereas",
+      "nevertheless"
+    ],
+    "answer": 0,
+    "explanation": "Because introduces a reason clause.",
+    "id": 355,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "The project succeeded, _____ several early setbacks.",
+    "options": [
+      "although",
+      "despite",
+      "because",
+      "whereas"
+    ],
+    "answer": 1,
+    "explanation": "Despite is followed by a noun phrase.",
+    "id": 356,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "The policy aims to reduce waste without _____ access.",
+    "options": [
+      "restrict",
+      "to restrict",
+      "restricting",
+      "restricted"
+    ],
+    "answer": 2,
+    "explanation": "Without is followed by a gerund.",
+    "id": 357,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "The equipment must be tested before _____ installed.",
+    "options": [
+      "being",
+      "be",
+      "to be",
+      "been"
+    ],
+    "answer": 0,
+    "explanation": "Before is followed by a gerund in this reduced passive clause.",
+    "id": 358,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "The manager approved the plan on the understanding _____ costs were monitored.",
+    "options": [
+      "which",
+      "what",
+      "that",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "That introduces the content clause after understanding.",
+    "id": 359,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Complex clauses",
+    "prompt": "The workshop is designed for people _____ to improve their presentation skills.",
+    "options": [
+      "want",
+      "wanting",
+      "wanted",
+      "to wanting"
+    ],
+    "answer": 1,
+    "explanation": "Wanting reduces who want to improve.",
+    "id": 360,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "Only _____ of the evidence was available.",
+    "options": [
+      "a few",
+      "a little",
+      "many",
+      "several"
+    ],
+    "answer": 1,
+    "explanation": "A little modifies uncountable evidence.",
+    "id": 361,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "There are _____ alternatives to consider.",
+    "options": [
+      "much",
+      "a little",
+      "several",
+      "every"
+    ],
+    "answer": 2,
+    "explanation": "Several modifies a countable plural noun.",
+    "id": 362,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "We have _____ time left, so let’s focus on the key points.",
+    "options": [
+      "few",
+      "little",
+      "a few",
+      "many"
+    ],
+    "answer": 1,
+    "explanation": "Little means not much with an uncountable noun.",
+    "id": 363,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "_____ of the participants completed the second task.",
+    "options": [
+      "Much",
+      "A great deal",
+      "Most",
+      "Every"
+    ],
+    "answer": 2,
+    "explanation": "Most of can modify a plural countable noun.",
+    "id": 364,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "There were too _____ interruptions during the interview.",
+    "options": [
+      "much",
+      "many",
+      "little",
+      "a little"
+    ],
+    "answer": 1,
+    "explanation": "Many modifies the plural countable noun interruptions.",
+    "id": 365,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "The project has made _____ progress this month.",
+    "options": [
+      "many",
+      "a few",
+      "considerable",
+      "several"
+    ],
+    "answer": 2,
+    "explanation": "Progress is uncountable and can be modified by considerable.",
+    "id": 366,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "I have read _____ of the articles you recommended.",
+    "options": [
+      "both",
+      "much",
+      "every",
+      "a little"
+    ],
+    "answer": 0,
+    "explanation": "Both of refers to two articles.",
+    "id": 367,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "Hardly _____ customers noticed the small change.",
+    "options": [
+      "some",
+      "any",
+      "much",
+      "a little"
+    ],
+    "answer": 1,
+    "explanation": "Any is used after a negative adverb such as hardly.",
+    "id": 368,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "The survey received _____ responses than expected.",
+    "options": [
+      "less",
+      "fewer",
+      "little",
+      "few"
+    ],
+    "answer": 1,
+    "explanation": "Fewer modifies the countable plural noun responses.",
+    "id": 369,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Quantifiers",
+    "prompt": "We need _____ more volunteers before the event.",
+    "options": [
+      "a few",
+      "a little",
+      "much",
+      "every"
+    ],
+    "answer": 0,
+    "explanation": "A few modifies the countable plural noun volunteers.",
+    "id": 370,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The committee _____ that further research was needed.",
+    "options": [
+      "said",
+      "stated",
+      "told",
+      "spoke"
+    ],
+    "answer": 1,
+    "explanation": "State is a formal transitive reporting verb used with a that-clause.",
+    "id": 371,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "Please _____ that the office will close at five.",
+    "options": [
+      "be advised",
+      "be advising",
+      "advise",
+      "advised"
+    ],
+    "answer": 0,
+    "explanation": "Be advised is a formal passive notice expression.",
+    "id": 372,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The results _____ a significant change in behaviour.",
+    "options": [
+      "indicate",
+      "say up",
+      "tell to",
+      "make known"
+    ],
+    "answer": 0,
+    "explanation": "Indicate is an appropriate formal verb for evidence.",
+    "id": 373,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The policy is _____ to annual review.",
+    "options": [
+      "subject",
+      "object",
+      "liable",
+      "due"
+    ],
+    "answer": 0,
+    "explanation": "Be subject to means be affected by or governed by.",
+    "id": 374,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The applicants must _____ the eligibility criteria.",
+    "options": [
+      "meet",
+      "make",
+      "do",
+      "reach to"
+    ],
+    "answer": 0,
+    "explanation": "Meet the criteria is the standard collocation.",
+    "id": 375,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The issue requires _____ consideration.",
+    "options": [
+      "further",
+      "farther",
+      "forward",
+      "furthest"
+    ],
+    "answer": 0,
+    "explanation": "Further means additional in formal writing.",
+    "id": 376,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The figures are _____ with the published accounts.",
+    "options": [
+      "in accordance",
+      "accordingly",
+      "according",
+      "accord"
+    ],
+    "answer": 0,
+    "explanation": "In accordance with means consistent with.",
+    "id": 377,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The study was conducted _____ ethical guidelines.",
+    "options": [
+      "in line with",
+      "in line to",
+      "on line with",
+      "by line of"
+    ],
+    "answer": 0,
+    "explanation": "In line with is a formal collocation meaning consistent with.",
+    "id": 378,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The contract is _____ from 1 September.",
+    "options": [
+      "effective",
+      "effecting",
+      "effected",
+      "effectively"
+    ],
+    "answer": 0,
+    "explanation": "Effective from states when an agreement begins to apply.",
+    "id": 379,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Formality & register",
+    "prompt": "The findings are _____ to be interpreted with caution.",
+    "options": [
+      "liable",
+      "likely",
+      "supposed",
+      "bound"
+    ],
+    "answer": 1,
+    "explanation": "Likely to be interpreted expresses a probability.",
+    "id": 380,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "Some employees work remotely, while _____ prefer the office.",
+    "options": [
+      "another",
+      "others",
+      "the other",
+      "other one"
+    ],
+    "answer": 1,
+    "explanation": "Others refers to additional people in a plural contrast.",
+    "id": 381,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "The first draft is longer than the second _____.",
+    "options": [
+      "one",
+      "ones",
+      "drafts",
+      "it"
+    ],
+    "answer": 0,
+    "explanation": "One substitutes for the singular countable noun draft.",
+    "id": 382,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "The north route is busy; the southern _____ is quieter.",
+    "options": [
+      "one",
+      "ones",
+      "itself",
+      "some"
+    ],
+    "answer": 0,
+    "explanation": "One substitutes for the singular route.",
+    "id": 383,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "The old design was expensive, whereas the new _____ is affordable.",
+    "options": [
+      "one",
+      "ones",
+      "it",
+      "some"
+    ],
+    "answer": 0,
+    "explanation": "One replaces the singular countable noun design.",
+    "id": 384,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "The report discusses what happened and what _____ next.",
+    "options": [
+      "happens",
+      "happened",
+      "did",
+      "does"
+    ],
+    "answer": 1,
+    "explanation": "Parallel past tense is needed after what happened.",
+    "id": 385,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "The results were better than we _____.",
+    "options": [
+      "expect",
+      "expected",
+      "have expected",
+      "are expecting"
+    ],
+    "answer": 1,
+    "explanation": "The past reporting context takes expected.",
+    "id": 386,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "She can analyse the data, and so _____ her colleague.",
+    "options": [
+      "can",
+      "does",
+      "is",
+      "has"
+    ],
+    "answer": 0,
+    "explanation": "So can + subject agrees with can analyse.",
+    "id": 387,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "I have not visited the new site, but my manager _____.",
+    "options": [
+      "has",
+      "did",
+      "is",
+      "does"
+    ],
+    "answer": 0,
+    "explanation": "Has substitutes for has visited.",
+    "id": 388,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "The final proposal is more practical than the previous _____.",
+    "options": [
+      "one",
+      "ones",
+      "it",
+      "some"
+    ],
+    "answer": 0,
+    "explanation": "One replaces the singular countable noun proposal.",
+    "id": 389,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Discourse & ellipsis",
+    "prompt": "The first trial failed, but the second _____ succeeded.",
+    "options": [
+      "one",
+      "ones",
+      "itself",
+      "some"
+    ],
+    "answer": 0,
+    "explanation": "One replaces the singular trial.",
+    "id": 390,
+    "level": "C1",
+    "difficulty": "High"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "It is essential that the documents _____ before noon.",
+    "options": [
+      "are sent",
+      "be sent",
+      "sent",
+      "to send"
+    ],
+    "answer": 1,
+    "explanation": "The mandative subjunctive uses be in a formal passive clause.",
+    "id": 391,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "The company is thought _____ its strategy.",
+    "options": [
+      "to revise",
+      "revising",
+      "revise",
+      "to have revising"
+    ],
+    "answer": 0,
+    "explanation": "Is thought to revise reports a present or future action.",
+    "id": 392,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "Not only _____ the plan costly, but it was also difficult to implement.",
+    "options": [
+      "was",
+      "did",
+      "has",
+      "had"
+    ],
+    "answer": 0,
+    "explanation": "Not only was requires inversion of be.",
+    "id": 393,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "What the committee needs _____ a clearer timetable.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": 2,
+    "explanation": "What-clause subjects take a singular verb when referring to one thing.",
+    "id": 394,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "The fact _____ demand has fallen cannot be ignored.",
+    "options": [
+      "which",
+      "what",
+      "that",
+      "where"
+    ],
+    "answer": 2,
+    "explanation": "That introduces the content clause after the fact.",
+    "id": 395,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "Were the evidence stronger, the conclusion _____ more convincing.",
+    "options": [
+      "will be",
+      "would be",
+      "has been",
+      "was"
+    ],
+    "answer": 1,
+    "explanation": "Were at the beginning introduces an unreal present condition.",
+    "id": 396,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "The director insisted that the figures _____ checked again.",
+    "options": [
+      "are",
+      "were",
+      "be",
+      "to be"
+    ],
+    "answer": 2,
+    "explanation": "Insist that takes the base form in the formal subjunctive.",
+    "id": 397,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "There is little point _____ the decision now.",
+    "options": [
+      "to challenge",
+      "challenge",
+      "in challenging",
+      "challenged"
+    ],
+    "answer": 2,
+    "explanation": "There is little point in is followed by a gerund.",
+    "id": 398,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "The policy, _____ in response to public concern, takes effect today.",
+    "options": [
+      "introducing",
+      "introduced",
+      "introduce",
+      "to introducing"
+    ],
+    "answer": 1,
+    "explanation": "Introduced reduces a passive relative clause.",
+    "id": 399,
+    "level": "B2",
+    "difficulty": "Medium"
+  },
+  {
+    "category": "Mixed C1 structures",
+    "prompt": "Only after the review _____ the risks become apparent.",
+    "options": [
+      "did",
+      "had",
+      "were",
+      "have"
+    ],
+    "answer": 0,
+    "explanation": "Only after at the beginning triggers did inversion.",
+    "id": 400,
+    "level": "B2",
+    "difficulty": "Medium"
+  }
+]

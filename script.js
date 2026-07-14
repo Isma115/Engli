@@ -1,4 +1,4 @@
-const views = ['dashboard', 'writing', 'grammar', 'reading', 'stats'];
+const views = ['dashboard', 'writing', 'grammar', 'reading', 'vocabulary', 'stats'];
 const viewElements = document.querySelectorAll('.view');
 const navItems = document.querySelectorAll('[data-view]');
 const toast = document.getElementById('toast');
@@ -29,28 +29,27 @@ document.querySelectorAll('[data-go-to]').forEach((item) => {
   item.addEventListener('click', () => navigate(item.dataset.goTo));
 });
 
-const readingLibrary = Array.isArray(window.readingLibrary) ? window.readingLibrary : [];
-const grammarQuestions = Array.isArray(window.grammarQuestions) ? window.grammarQuestions : [];
-const writingQuestions = Array.isArray(window.writingPrompts) ? window.writingPrompts : [];
-const writingExercises = writingQuestions.map((writing) => ({
-  id: `writing-${writing.id}`,
-  section: 'Writing',
-  title: writing.title
-}));
-const grammarExercises = grammarQuestions.map((question) => ({
-  id: `grammar-${question.id}`,
-  section: 'Grammar',
-  title: question.prompt
-}));
-const exerciseCatalog = [
-  ...writingExercises,
-  ...grammarExercises,
-  ...readingLibrary.map((reading) => ({
-    id: `reading-${reading.id}`,
-    section: 'Reading',
-    title: reading.title
-  }))
-];
+let readingLibrary = [];
+let grammarQuestions = [];
+let writingQuestions = [];
+function shuffleQuestions(questions) {
+  const shuffled = [...questions];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+let exerciseCatalog = [];
+
+function rebuildExerciseCatalog() {
+  exerciseCatalog = [
+    ...writingQuestions.map((writing) => ({ id: `writing-${writing.id}`, section: 'Writing', title: writing.title })),
+    ...grammarQuestions.map((question) => ({ id: `grammar-${question.id}`, section: 'Grammar', title: question.prompt })),
+    ...readingLibrary.map((reading) => ({ id: `reading-${reading.id}`, section: 'Reading', title: reading.title })),
+    ...vocabularyCards.map((card) => ({ id: `vocabulary-${card.id}`, section: 'Vocabulary', title: card.english }))
+  ];
+}
 const statsStorageKey = 'engli.exercise-results.v1';
 let exerciseResults = loadExerciseResults();
 
@@ -453,9 +452,334 @@ readingFilters.forEach((filter) => filter.addEventListener('click', () => {
   renderLibrary();
 }));
 
-if (readingTotal) readingTotal.textContent = readingLibrary.length;
-renderStats();
-renderWritingPrompt();
-renderGrammarQuestion();
-renderReading();
-renderLibrary();
+const vocabularyStorageKey = 'engli.vocabulary-progress.v1';
+let vocabularyCards = [];
+let vocabularyProgress = loadVocabularyProgress();
+let currentVocabulary = null;
+let vocabularyMode = 'typing';
+let vocabularyAttempted = false;
+let vocabularyWasCorrect = null;
+let selectedVocabularyChoice = null;
+let currentChoiceOptions = [];
+
+function loadVocabularyProgress() {
+  try {
+    const stored = window.localStorage.getItem(vocabularyStorageKey);
+    const parsed = stored ? JSON.parse(stored) : {};
+    return parsed && typeof parsed === 'object' ? parsed : {};
+  } catch (error) {
+    return {};
+  }
+}
+
+function saveVocabularyProgress() {
+  try {
+    window.localStorage.setItem(vocabularyStorageKey, JSON.stringify(vocabularyProgress));
+  } catch (error) {
+    // Progress remains available for this session if storage is unavailable.
+  }
+}
+
+function getVocabularyProgress(cardId) {
+  return vocabularyProgress[cardId] || { state: 'new', repetitions: 0, interval: 0, ease: 2.5, due: 0, lapses: 0 };
+}
+
+function getDueVocabularyCards() {
+  const now = Date.now();
+  return vocabularyCards
+    .filter((card) => getVocabularyProgress(card.id).due <= now)
+    .sort((first, second) => {
+      const firstProgress = getVocabularyProgress(first.id);
+      const secondProgress = getVocabularyProgress(second.id);
+      if (firstProgress.state === 'new' && secondProgress.state !== 'new') return -1;
+      if (secondProgress.state === 'new' && firstProgress.state !== 'new') return 1;
+      return firstProgress.due - secondProgress.due;
+    });
+}
+
+function getVocabularyStats() {
+  const due = getDueVocabularyCards().length;
+  const learning = vocabularyCards.filter((card) => getVocabularyProgress(card.id).state === 'learning').length;
+  const known = vocabularyCards.filter((card) => getVocabularyProgress(card.id).state === 'review').length;
+  return { due, learning, known };
+}
+
+function renderVocabularySummary() {
+  const { due, learning, known } = getVocabularyStats();
+  document.getElementById('vocabulary-total').textContent = `${vocabularyCards.length} cards`;
+  document.getElementById('vocabulary-due').textContent = due;
+  document.getElementById('vocabulary-learning').textContent = learning;
+  document.getElementById('vocabulary-known').textContent = known;
+}
+
+function selectNextVocabularyCard() {
+  const dueCards = getDueVocabularyCards();
+  currentVocabulary = dueCards.find((card) => card.id !== currentVocabulary?.id) || dueCards[0] || null;
+  vocabularyAttempted = false;
+  vocabularyWasCorrect = null;
+  selectedVocabularyChoice = null;
+  currentChoiceOptions = [];
+  renderVocabularyCard();
+}
+
+function normaliseVocabularyAnswer(value) {
+  return String(value || '')
+    .trim()
+    .toLocaleLowerCase('es')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, ' ');
+}
+
+function isCorrectVocabularyAnswer(answer) {
+  const acceptedAnswers = currentVocabulary.spanish
+    .split(/[,;/]/)
+    .map(normaliseVocabularyAnswer)
+    .filter(Boolean);
+  const submittedAnswer = normaliseVocabularyAnswer(answer);
+  return acceptedAnswers.includes(submittedAnswer) || submittedAnswer === normaliseVocabularyAnswer(currentVocabulary.spanish);
+}
+
+function getVocabularyChoices() {
+  if (currentChoiceOptions.length) return currentChoiceOptions;
+  const distractors = shuffleQuestions(vocabularyCards
+    .filter((card) => card.id !== currentVocabulary.id && card.spanish !== currentVocabulary.spanish)
+    .map((card) => card.spanish))
+    .slice(0, 3);
+  currentChoiceOptions = shuffleQuestions([currentVocabulary.spanish, ...distractors]);
+  return currentChoiceOptions;
+}
+
+function renderVocabularyCard() {
+  const card = document.getElementById('vocabulary-card');
+  const word = document.getElementById('vocabulary-word');
+  const direction = document.getElementById('vocabulary-direction');
+  const answer = document.getElementById('vocabulary-answer');
+  const translation = document.getElementById('vocabulary-translation');
+  const example = document.getElementById('vocabulary-example');
+  const hint = document.getElementById('vocabulary-hint');
+  const actions = document.getElementById('vocabulary-actions');
+  const note = document.getElementById('vocabulary-note');
+  const typingForm = document.getElementById('vocabulary-typing');
+  const input = document.getElementById('vocabulary-input');
+  const choices = document.getElementById('vocabulary-choices');
+  const feedback = document.getElementById('vocabulary-feedback');
+
+  renderVocabularySummary();
+  if (!currentVocabulary) {
+    direction.textContent = 'Today’s deck';
+    word.textContent = vocabularyCards.length ? 'All caught up.' : 'Deck unavailable.';
+    answer.hidden = true;
+    hint.textContent = vocabularyCards.length ? 'There are no cards due right now. Come back when your next review is ready.' : 'Reload the app to try loading the deck again.';
+    actions.hidden = true;
+    typingForm.hidden = true;
+    choices.hidden = true;
+    feedback.textContent = '';
+    note.textContent = vocabularyCards.length ? 'A small amount of regular review is more effective than a long cram session.' : 'The vocabulary file could not be loaded.';
+    card.setAttribute('aria-label', word.textContent);
+    return;
+  }
+
+  const progress = getVocabularyProgress(currentVocabulary.id);
+  direction.textContent = 'English · translate it';
+  word.textContent = currentVocabulary.english;
+  translation.textContent = currentVocabulary.spanish;
+  example.textContent = currentVocabulary.example;
+  answer.hidden = !vocabularyAttempted;
+  actions.hidden = !vocabularyAttempted;
+  typingForm.hidden = vocabularyMode !== 'typing' || vocabularyAttempted;
+  choices.hidden = vocabularyMode !== 'choice';
+  input.value = vocabularyAttempted ? input.value : '';
+  hint.textContent = vocabularyAttempted ? 'Compare your answer, then rate your recall.' : vocabularyMode === 'typing'
+    ? 'Write the Spanish translation, then check your answer.'
+    : 'Choose the correct Spanish translation.';
+  note.textContent = progress.state === 'new'
+    ? 'New card · your result determines how soon it returns.'
+    : `Last interval: ${progress.interval || 1} day${(progress.interval || 1) === 1 ? '' : 's'} · difficult cards return sooner.`;
+  card.setAttribute('aria-label', `${currentVocabulary.english}. ${hint.textContent}`);
+  feedback.textContent = vocabularyAttempted
+    ? vocabularyWasCorrect ? 'Correct. The answer is shown below.' : `Not quite. The correct answer is “${currentVocabulary.spanish}”.`
+    : '';
+  feedback.className = `vocabulary-feedback${vocabularyAttempted && !vocabularyWasCorrect ? ' error' : ''}`;
+
+  if (vocabularyMode === 'choice' && currentVocabulary) {
+    choices.innerHTML = getVocabularyChoices().map((choice, index) => {
+      const isCorrect = choice === currentVocabulary.spanish;
+      const isSelected = choice === selectedVocabularyChoice;
+      const state = vocabularyAttempted ? (isCorrect ? ' correct' : isSelected ? ' incorrect' : '') : '';
+      return `<button class="vocabulary-choice${state}" type="button" data-vocabulary-choice="${index}"${vocabularyAttempted ? ' disabled' : ''}><span>${String.fromCharCode(65 + index)}.</span>${escapeHtml(choice)}</button>`;
+    }).join('');
+  }
+  document.querySelectorAll('#vocabulary-actions [data-rating]').forEach((button) => {
+    button.hidden = vocabularyAttempted && vocabularyWasCorrect === false && button.dataset.rating !== 'again';
+  });
+}
+
+function addDays(date, days) {
+  return date + (days * 24 * 60 * 60 * 1000);
+}
+
+function scheduleVocabularyCard(rating) {
+  if (!currentVocabulary || !vocabularyAttempted) return;
+  if (vocabularyWasCorrect === false && rating !== 'again') return;
+  const now = Date.now();
+  const previous = getVocabularyProgress(currentVocabulary.id);
+  const isNew = previous.state === 'new';
+  const next = { ...previous, reviewedAt: now, ease: previous.ease || 2.5 };
+  let message;
+
+  if (rating === 'again') {
+    next.state = 'learning';
+    next.repetitions = 0;
+    next.interval = 0;
+    next.ease = Math.max(1.3, next.ease - 0.2);
+    next.lapses = (next.lapses || 0) + 1;
+    next.due = now + (isNew ? 60 * 1000 : 10 * 60 * 1000);
+    message = 'Again · this card will return soon.';
+  } else if (rating === 'hard') {
+    next.state = isNew ? 'learning' : 'review';
+    next.repetitions = (previous.repetitions || 0) + 1;
+    next.interval = isNew ? 1 : Math.max(1, Math.round((previous.interval || 1) * 1.2));
+    next.ease = Math.max(1.3, next.ease - 0.15);
+    next.due = isNew ? now + (6 * 60 * 1000) : addDays(now, next.interval);
+    message = isNew ? 'Hard · this card will return in 6 minutes.' : `Hard · next review in ${next.interval} day${next.interval === 1 ? '' : 's'}.`;
+  } else if (rating === 'good') {
+    next.state = 'review';
+    next.repetitions = (previous.repetitions || 0) + 1;
+    next.interval = isNew || previous.state === 'learning' ? 1 : Math.max(1, Math.round((previous.interval || 1) * next.ease));
+    next.due = addDays(now, next.interval);
+    message = `Good · next review in ${next.interval} day${next.interval === 1 ? '' : 's'}.`;
+  } else {
+    next.state = 'review';
+    next.repetitions = (previous.repetitions || 0) + 1;
+    next.interval = isNew ? 4 : Math.max(2, Math.round((previous.interval || 1) * next.ease * 1.3));
+    next.ease = Math.min(3.2, next.ease + 0.15);
+    next.due = addDays(now, next.interval);
+    message = `Easy · next review in ${next.interval} days.`;
+  }
+
+  vocabularyProgress[currentVocabulary.id] = next;
+  saveVocabularyProgress();
+  recordExercise(`vocabulary-${currentVocabulary.id}`, rating === 'again' || !vocabularyWasCorrect ? 0 : 1);
+  showToast(message);
+  selectNextVocabularyCard();
+}
+
+async function initialiseVocabulary() {
+  try {
+    const data = await loadJsonDataset('vocabulary.json');
+    if (!Array.isArray(data) || data.length !== 100) throw new Error('Vocabulary data is invalid');
+    vocabularyCards = data;
+    rebuildExerciseCatalog();
+    renderStats();
+    selectNextVocabularyCard();
+  } catch (error) {
+    renderVocabularyCard();
+  }
+}
+
+async function loadJsonDataset(filename) {
+  try {
+    const response = await fetch(filename);
+    if (!response.ok) throw new Error(`Unable to load ${filename}`);
+    return response.json();
+  } catch (fetchError) {
+    return new Promise((resolve, reject) => {
+      const request = new XMLHttpRequest();
+      request.open('GET', filename);
+      request.onload = () => {
+        if (request.status === 0 || (request.status >= 200 && request.status < 300)) {
+          resolve(JSON.parse(request.responseText));
+        } else {
+          reject(new Error(`Unable to load ${filename}`));
+        }
+      };
+      request.onerror = () => reject(fetchError);
+      request.send();
+    });
+  }
+}
+
+async function initialiseExerciseContent() {
+  try {
+    const [writingData, grammarData, readingData] = await Promise.all([
+      loadJsonDataset('writing.json'),
+      loadJsonDataset('grammar.json'),
+      loadJsonDataset('reading.json')
+    ]);
+    if (![writingData, grammarData, readingData].every((dataset) => Array.isArray(dataset) && dataset.length === 400)) {
+      throw new Error('Exercise data is invalid');
+    }
+    writingQuestions = writingData;
+    grammarQuestions = shuffleQuestions(grammarData);
+    readingLibrary = readingData;
+    currentReading = readingLibrary[0] || null;
+    rebuildExerciseCatalog();
+    if (readingTotal) readingTotal.textContent = readingLibrary.length;
+    renderStats();
+    renderWritingPrompt();
+    renderGrammarQuestion();
+    renderReading();
+    renderLibrary();
+  } catch (error) {
+    showToast('Exercise content could not be loaded.');
+  }
+}
+
+function setVocabularyMode(nextMode) {
+  if (!['typing', 'choice'].includes(nextMode)) return;
+  vocabularyMode = nextMode;
+  vocabularyAttempted = false;
+  vocabularyWasCorrect = null;
+  selectedVocabularyChoice = null;
+  currentChoiceOptions = [];
+  document.querySelectorAll('[data-vocabulary-mode]').forEach((button) => {
+    const active = button.dataset.vocabularyMode === vocabularyMode;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+  renderVocabularyCard();
+}
+
+document.getElementById('vocabulary-typing')?.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (!currentVocabulary || vocabularyAttempted) return;
+  const input = document.getElementById('vocabulary-input');
+  if (!input.value.trim()) {
+    input.focus();
+    document.getElementById('vocabulary-feedback').textContent = 'Write a translation before checking it.';
+    document.getElementById('vocabulary-feedback').className = 'vocabulary-feedback error';
+    return;
+  }
+  vocabularyWasCorrect = isCorrectVocabularyAnswer(input.value);
+  vocabularyAttempted = true;
+  renderVocabularyCard();
+});
+
+document.getElementById('vocabulary-choices')?.addEventListener('click', (event) => {
+  const option = event.target.closest('[data-vocabulary-choice]');
+  if (!option || !currentVocabulary || vocabularyAttempted) return;
+  selectedVocabularyChoice = getVocabularyChoices()[Number(option.dataset.vocabularyChoice)];
+  vocabularyWasCorrect = selectedVocabularyChoice === currentVocabulary.spanish;
+  vocabularyAttempted = true;
+  renderVocabularyCard();
+});
+
+document.querySelectorAll('[data-vocabulary-mode]').forEach((button) => {
+  button.addEventListener('click', () => setVocabularyMode(button.dataset.vocabularyMode));
+});
+
+document.getElementById('vocabulary-actions')?.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-rating]');
+  if (button) scheduleVocabularyCard(button.dataset.rating);
+});
+document.addEventListener('keydown', (event) => {
+  const vocabularyView = document.getElementById('vocabulary-view');
+  const typing = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName);
+  if (!vocabularyView?.classList.contains('active-view') || typing) return;
+  const rating = { Digit1: 'again', Digit2: 'hard', Digit3: 'good', Digit4: 'easy' }[event.code];
+  if (rating) scheduleVocabularyCard(rating);
+});
+
+initialiseExerciseContent();
+initialiseVocabulary();
