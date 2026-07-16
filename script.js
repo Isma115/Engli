@@ -459,6 +459,7 @@ let currentVocabulary = null;
 let vocabularyMode = 'typing';
 let vocabularyAttempted = false;
 let vocabularyWasCorrect = null;
+let vocabularyScheduled = false;
 let selectedVocabularyChoice = null;
 let currentChoiceOptions = [];
 
@@ -514,9 +515,12 @@ function renderVocabularySummary() {
 
 function selectNextVocabularyCard() {
   const dueCards = getDueVocabularyCards();
-  currentVocabulary = dueCards.find((card) => card.id !== currentVocabulary?.id) || dueCards[0] || null;
+  const alternatives = dueCards.filter((card) => card.id !== currentVocabulary?.id);
+  const candidates = alternatives.length ? alternatives : dueCards;
+  currentVocabulary = candidates.length ? candidates[Math.floor(Math.random() * candidates.length)] : null;
   vocabularyAttempted = false;
   vocabularyWasCorrect = null;
+  vocabularyScheduled = false;
   selectedVocabularyChoice = null;
   currentChoiceOptions = [];
   renderVocabularyCard();
@@ -610,17 +614,14 @@ function renderVocabularyCard() {
       return `<button class="vocabulary-choice${state}" type="button" data-vocabulary-choice="${index}"${vocabularyAttempted ? ' disabled' : ''}><span>${String.fromCharCode(65 + index)}.</span>${escapeHtml(choice)}</button>`;
     }).join('');
   }
-  document.querySelectorAll('#vocabulary-actions [data-rating]').forEach((button) => {
-    button.hidden = vocabularyAttempted && vocabularyWasCorrect === false && button.dataset.rating !== 'again';
-  });
 }
 
 function addDays(date, days) {
   return date + (days * 24 * 60 * 60 * 1000);
 }
 
-function scheduleVocabularyCard(rating) {
-  if (!currentVocabulary || !vocabularyAttempted) return;
+function scheduleVocabularyCard(rating, advance = true) {
+  if (!currentVocabulary || !vocabularyAttempted || vocabularyScheduled) return;
   if (vocabularyWasCorrect === false && rating !== 'again') return;
   const now = Date.now();
   const previous = getVocabularyProgress(currentVocabulary.id);
@@ -635,7 +636,7 @@ function scheduleVocabularyCard(rating) {
     next.ease = Math.max(1.3, next.ease - 0.2);
     next.lapses = (next.lapses || 0) + 1;
     next.due = now + (isNew ? 60 * 1000 : 10 * 60 * 1000);
-    message = 'Again · this card will return soon.';
+    message = 'This word will return soon.';
   } else if (rating === 'hard') {
     next.state = isNew ? 'learning' : 'review';
     next.repetitions = (previous.repetitions || 0) + 1;
@@ -648,7 +649,7 @@ function scheduleVocabularyCard(rating) {
     next.repetitions = (previous.repetitions || 0) + 1;
     next.interval = isNew || previous.state === 'learning' ? 1 : Math.max(1, Math.round((previous.interval || 1) * next.ease));
     next.due = addDays(now, next.interval);
-    message = `Good · next review in ${next.interval} day${next.interval === 1 ? '' : 's'}.`;
+    message = `Next review in ${next.interval} day${next.interval === 1 ? '' : 's'}.`;
   } else {
     next.state = 'review';
     next.repetitions = (previous.repetitions || 0) + 1;
@@ -661,8 +662,9 @@ function scheduleVocabularyCard(rating) {
   vocabularyProgress[currentVocabulary.id] = next;
   saveVocabularyProgress();
   recordExercise(`vocabulary-${currentVocabulary.id}`, rating === 'again' || !vocabularyWasCorrect ? 0 : 1);
+  vocabularyScheduled = true;
   showToast(message);
-  selectNextVocabularyCard();
+  if (advance) selectNextVocabularyCard();
 }
 
 async function initialiseVocabulary() {
@@ -729,10 +731,12 @@ async function initialiseExerciseContent() {
 function setVocabularyMode(nextMode) {
   if (!['typing', 'choice'].includes(nextMode)) return;
   vocabularyMode = nextMode;
-  vocabularyAttempted = false;
-  vocabularyWasCorrect = null;
-  selectedVocabularyChoice = null;
-  currentChoiceOptions = [];
+  if (!vocabularyScheduled) {
+    vocabularyAttempted = false;
+    vocabularyWasCorrect = null;
+    selectedVocabularyChoice = null;
+    currentChoiceOptions = [];
+  }
   document.querySelectorAll('[data-vocabulary-mode]').forEach((button) => {
     const active = button.dataset.vocabularyMode === vocabularyMode;
     button.classList.toggle('active', active);
@@ -754,6 +758,7 @@ document.getElementById('vocabulary-typing')?.addEventListener('submit', (event)
   vocabularyWasCorrect = isCorrectVocabularyAnswer(input.value);
   vocabularyAttempted = true;
   renderVocabularyCard();
+  scheduleVocabularyCard(vocabularyWasCorrect ? 'good' : 'again', false);
 });
 
 document.getElementById('vocabulary-choices')?.addEventListener('click', (event) => {
@@ -763,22 +768,15 @@ document.getElementById('vocabulary-choices')?.addEventListener('click', (event)
   vocabularyWasCorrect = selectedVocabularyChoice === currentVocabulary.spanish;
   vocabularyAttempted = true;
   renderVocabularyCard();
+  scheduleVocabularyCard(vocabularyWasCorrect ? 'good' : 'again', false);
 });
 
 document.querySelectorAll('[data-vocabulary-mode]').forEach((button) => {
   button.addEventListener('click', () => setVocabularyMode(button.dataset.vocabularyMode));
 });
 
-document.getElementById('vocabulary-actions')?.addEventListener('click', (event) => {
-  const button = event.target.closest('[data-rating]');
-  if (button) scheduleVocabularyCard(button.dataset.rating);
-});
-document.addEventListener('keydown', (event) => {
-  const vocabularyView = document.getElementById('vocabulary-view');
-  const typing = ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName);
-  if (!vocabularyView?.classList.contains('active-view') || typing) return;
-  const rating = { Digit1: 'again', Digit2: 'hard', Digit3: 'good', Digit4: 'easy' }[event.code];
-  if (rating) scheduleVocabularyCard(rating);
+document.getElementById('vocabulary-next')?.addEventListener('click', () => {
+  if (vocabularyScheduled) selectNextVocabularyCard();
 });
 
 initialiseExerciseContent();
